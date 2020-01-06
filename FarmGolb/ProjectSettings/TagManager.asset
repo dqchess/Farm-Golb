@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - crop
+  - cropHarvest
+  - foodChicken
+  - foodCow
+  - foodPig
+  - foodSheep
+  - foodGoat
+  - foodHorse
+  - chicken
+  - cow
+  - pig
+  - sheep
+  - goat
+  - horse
+  - saw
+  - boom
+  - foodChicken33
+  - foodCow34
+  - foodPig35
+  - foodSheep36
+  - foodGoat37
+  - foodHorse38
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: canvas
+    uniqueID: 1140320305
+    locked: 0

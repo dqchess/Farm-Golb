@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed2d687ef930a04eaae29a78ed5b3ee, type: 3}
+  m_Name: DataMachine
+  m_EditorClassIdentifier: 
+  dataMachine:
+  - name: Chicken Feed
+    nguyenlieu:
+    - id: 0
+      number: 2
+  - name: Cow feed
+    nguyenlieu:
+    - id: 1
+      number: 1
+    - id: 2
+      number: 2
+  - name: Pig feed
+    nguyenlieu:
+    - id: 2
+      number: 1
+    - id: 4
+      number: 2
+  - name: Sheep feed
+    nguyenlieu:
+    - id: 1
+      number: 2
+    - id: 5
+      number: 1
+  - name: Goat feed
+    nguyenlieu:
+    - id: 2
+      number: 2
+    - id: 6
+      number: 1
+  - name: Horse feed
+    nguyenlieu:
+    - id: 4
+      number: 1
+    - id: 7
+      number: 2
+  - name: botmi
+    nguyenlieu:
+    - id: 0
+      number: 2
+  - name: botngo
+    nguyenlieu:
+    - id: 1
+      number: 1
+  - name: botdau
+    nguyenlieu:
+    - id: 2
+      number: 1
+  - name: botot
+    nguyenlieu:
+    - id: 8
+      number: 2
+  - name: botcafe
+    nguyenlieu:
+    - id: 15
+      number: 2
+  - name: bobo
+    nguyenlieu:
+    - id: 27
+      number: 1
+  - name: bobap
+    nguyenlieu:
+    - id: 1
+      number: 2
+  - name: bodau
+    nguyenlieu:
+    - id: 2
+      number: 2
+  - name: booliu
+    nguyenlieu:
+    - id: 24
+      number: 3
+  - name: bode
+    nguyenlieu:
+    - id: 30
+      number: 2
+  - name: 
+    nguyenlieu:
+    - id: 89
+      number: 1
+  - name: 
+    nguyenlieu:
+    - id: 89
+      number: 1
+  - name: 
+    nguyenlieu:
+    - id: 90
+      number: 1
+  - name: 
+    nguyenlieu:
+    - id: 51
+      number: 1
+  - name: 
+    nguyenlieu:
+    - id: 51
+      number: 1
+  - name: dungvien
+    nguyenlieu:
+    - id: 3
+      number: 1
+  - name: duongtrang
+    nguyenlieu:
+    - id: 3
+      number: 2
+  - name: duongnau
+    nguyenlieu:
+    - id: 3
+      number: 3
+  - name: banhdua
+    nguyenlieu:
+    - id: 11
+      number: 1
+    - id: 39
+      number: 2
+    - id: 55
+      number: 1
+  - name: socola
+    nguyenlieu:
+    - id: 56
+      number: 1
+    - id: 15
+      number: 2
+  - name: suachua
+    nguyenlieu:
+    - id: 27
+      number: 1
+  - name: suadaulanh
+    nguyenlieu:
+    - id: 2
+      number: 2
+    - id: 54
+      number: 3
+  - name: suanonde
+    nguyenlieu:
+    - id: 30
+      number: 1
+    - id: 55
+      number: 2
+  - name: suadautay
+    nguyenlieu:
+    - id: 27
+      number: 1
+    - id: 10
+      number: 3
+  - name: suanho
+    nguyenlieu:
+    - id: 13
+      number: 1
+    - id: 27
+      number: 2
+  - name: xucxich
+    nguyenlieu:
+    - id: 28
+      number: 2
+  - name: duiheoquay
+    nguyenlieu:
+    - id: 28
+      number: 1
+    - id: 42
+      number: 2
+  - name: thitnuong
+    nguyenlieu:
+    - id: 28
+      number: 1
+    - id: 6
+      number: 2
+  - name: nguanuong
+    nguyenlieu:
+    - id: 42
+      number: 2
+    - id: 31
+      number: 3
+  - name: nguanuongcay
+    nguyenlieu:
+    - id: 42
+      number: 1
+    - id: 31
+      number: 2
+    - id: 39
+      number: 3
+  - name: pizzatrungsua
+    nguyenlieu:
+    - id: 39
+      number: 1
+    - id: 27
+      number: 2
+    - id: 26
+      number: 3
+  - name: pizzabocay
+    nguyenlieu:
+    - id: 39
+      number: 1
+    - id: 42
+      number: 2
+    - id: 44
+      number: 1
+  - name: banhcherry
+    nguyenlieu:
+    - id: 40
+      number: 2
+    - id: 18
+      number: 4
+  - name: pizzamieng
+    nguyenlieu:
+    - id: 39
+      number: 2
+    - id: 45
+      number: 3
+  - name: banhdautay
+    nguyenlieu:
+    - id: 39
+      number: 2
+    - id: 27
+      number: 3
+    - id: 10
+      number: 1
+  - name: banhtoong
+    nguyenlieu:
+    - id: 32
+      number: 1
+    - id: 45
+      number: 3
+  - name: 
+    nguyenlieu:
+    - id: 39
+      number: 1
+    - id: 26
+      number: 2
+    - id: 32
+      number: 4
+  - name: 
+    nguyenlieu:
+    - id: 32
+      number: 2
+    - id: 20
+      number: 1
+  - name: 
+    nguyenlieu:
+    - id: 32
+      number: 1
+    - id: 22
+      number: 3
+    - id: 21
+      number: 4
+  - name: matongnghe
+    nguyenlieu:
+    - id: 32
+      number: 2
+  - name: nuoccam
+    nguyenlieu:
+    - id: 19
+      number: 5
+  - name: 
+    nguyenlieu:
+    - id: 20
+      number: 4
+  - name: 
+    nguyenlieu:
+    - id: 24
+      number: 6
+  - name: 
+    nguyenlieu:
+    - id: 22
+      number: 5
+  - name: 
+    nguyenlieu:
+    - id: 12
+      number: 7
+  - name: 
+    nguyenlieu:
+    - id: 18
+      number: 6
+  - name: 
+    nguyenlieu:
+    - id: 22
+      number: 9
+  - name: 
+    nguyenlieu:
+    - id: 11
+      number: 8
+  - name: 
+    nguyenlieu:
+    - id: 13
+      number: 6
+  - name: 
+    nguyenlieu:
+    - id: 21
+      number: 8

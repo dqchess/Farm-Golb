@@ -1,0 +1,1131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7aa2b1137cdfa647954c8f591ebe4c0, type: 3}
+  m_Name: DataStorage
+  m_EditorClassIdentifier: 
+  dataStorages:
+  - nameVi: "L\xFAa"
+    nameEng: Paddy
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 11
+    time: 120
+    slThuH: 2
+    levelUse: 1
+    exp: 1
+    icon: {fileID: 21300000, guid: cc0e8c1a2129df542b0d7ef9983253bc, type: 3}
+    iconLock: {fileID: 21300000, guid: 69e4d23a6d30ad842bb0cbc63ee6fe60, type: 3}
+  - nameVi: "Ng\xF4"
+    nameEng: Corn
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 12
+    time: 180
+    slThuH: 2
+    levelUse: 3
+    exp: 2
+    icon: {fileID: 21300000, guid: d7df02dee442d9c45b6815b218f76f55, type: 3}
+    iconLock: {fileID: 21300000, guid: 59788adb08e47824a862955bf2d0d3ae, type: 3}
+  - nameVi: "\u0110\u1EADu t\u01B0\u01A1ng"
+    nameEng: Soybean
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 13
+    time: 240
+    slThuH: 2
+    levelUse: 4
+    exp: 1
+    icon: {fileID: 21300000, guid: a2357ec027a86844e8e2f7c3bf38af2c, type: 3}
+    iconLock: {fileID: 21300000, guid: 63fcdccecb75233478c5ff522a4ef9c2, type: 3}
+  - nameVi: "M\xEDa"
+    nameEng: Sugar cane
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 14
+    time: 300
+    slThuH: 2
+    levelUse: 7
+    exp: 1
+    icon: {fileID: 21300000, guid: cd5c3f51723973144afdfb39638babd2, type: 3}
+    iconLock: {fileID: 21300000, guid: 6e25b52c7f782dc418423fa99b8457e0, type: 3}
+  - nameVi: "B\xED ng\xF4"
+    nameEng: Pumpkin
+    describeEng: Harvest from Field
+    describeVi: 
+    coinBuy: 10
+    coinSell: 15
+    time: 360
+    slThuH: 2
+    levelUse: 9
+    exp: 2
+    icon: {fileID: 21300000, guid: e1bbdb294bbd7ee4f831f61e751085c9, type: 3}
+    iconLock: {fileID: 21300000, guid: 128a55f10367cf34d959e29bfac02e49, type: 3}
+  - nameVi: "C\xE0 r\u1ED1t"
+    nameEng: Carrot
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 8
+    coinSell: 10
+    time: 420
+    slThuH: 2
+    levelUse: 11
+    exp: 2
+    icon: {fileID: 21300000, guid: 26ec30d72b247a54ba2760f95896a91b, type: 3}
+    iconLock: {fileID: 21300000, guid: 4f36346ca7a070443a46f2d0fbea2f26, type: 3}
+  - nameVi: "C\xE0 chua"
+    nameEng: Tomato
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 7
+    coinSell: 11
+    time: 480
+    slThuH: 2
+    levelUse: 13
+    exp: 3
+    icon: {fileID: 21300000, guid: 33006b56542c2204cbdc8d07d6d27a8b, type: 3}
+    iconLock: {fileID: 21300000, guid: 338b7ca992b9fee41a934f98ae525e93, type: 3}
+  - nameVi: "D\u01B0a chu\u1ED9t"
+    nameEng: 'Cucumber '
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 8
+    coinSell: 10
+    time: 540
+    slThuH: 2
+    levelUse: 15
+    exp: 1
+    icon: {fileID: 21300000, guid: cf3d161afc760ed469e7bd6846918bb8, type: 3}
+    iconLock: {fileID: 21300000, guid: 2e6cf865ce695b14da1b04c28d8b4d97, type: 3}
+  - nameVi: "\u1EDAt "
+    nameEng: Chili
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 6
+    coinSell: 8
+    time: 600
+    slThuH: 2
+    levelUse: 17
+    exp: 2
+    icon: {fileID: 21300000, guid: ff624a1c09a020146aea8b1b395ae3aa, type: 3}
+    iconLock: {fileID: 21300000, guid: 29af9843e58da0843b83a007563f8925, type: 3}
+  - nameVi: "\u1EDAt ng\u1ECDt"
+    nameEng: Bell pepper
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 7
+    coinSell: 10
+    time: 660
+    slThuH: 2
+    levelUse: 19
+    exp: 3
+    icon: {fileID: 21300000, guid: 03db1b89de73e5d4a807f728d54b6313, type: 3}
+    iconLock: {fileID: 21300000, guid: c20bd7a6c806e8645887da09ff275713, type: 3}
+  - nameVi: "D\xE2u t\xE2y"
+    nameEng: Strawberry
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 14
+    time: 720
+    slThuH: 2
+    levelUse: 21
+    exp: 3
+    icon: {fileID: 21300000, guid: cb38ac32a8a977b4488cd9b0d466bd9d, type: 3}
+    iconLock: {fileID: 21300000, guid: c5b6a8f0cb455af4c9895e93399d464c, type: 3}
+  - nameVi: "D\u1EE9a"
+    nameEng: Peneapple
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 7
+    coinSell: 12
+    time: 780
+    slThuH: 2
+    levelUse: 23
+    exp: 3
+    icon: {fileID: 21300000, guid: 1cdbb4846877a474dad4db59ed166516, type: 3}
+    iconLock: {fileID: 21300000, guid: 0b6311be71e1dbb4490885a524d0a69f, type: 3}
+  - nameVi: "D\u01B0a h\u1EA5u"
+    nameEng: Water melon
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 8
+    coinSell: 11
+    time: 840
+    slThuH: 2
+    levelUse: 25
+    exp: 4
+    icon: {fileID: 21300000, guid: f2cc4ec32082b2c4a99799033ac88c98, type: 3}
+    iconLock: {fileID: 21300000, guid: b90a283321d100444a4d1d9b19ad57ad, type: 3}
+  - nameVi: Nho
+    nameEng: Grapes
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 9
+    coinSell: 12
+    time: 900
+    slThuH: 2
+    levelUse: 27
+    exp: 3
+    icon: {fileID: 21300000, guid: fd27b070d3d6a3a42afe1d62452cc285, type: 3}
+    iconLock: {fileID: 21300000, guid: a8dbd73e5f8b75c4b9808e328b316b1d, type: 3}
+  - nameVi: "C\xE0 t\xEDm"
+    nameEng: Eggplant
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 15
+    time: 960
+    slThuH: 2
+    levelUse: 29
+    exp: 3
+    icon: {fileID: 21300000, guid: 934c1d94e88ba9d4abe130a1b5965653, type: 3}
+    iconLock: {fileID: 21300000, guid: 9e865d07c1dad7f4193d863c106afb24, type: 3}
+  - nameVi: "C\xE0 ph\xEA"
+    nameEng: Cafe
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 4
+    coinSell: 7
+    time: 960
+    slThuH: 2
+    levelUse: 31
+    exp: 1
+    icon: {fileID: 21300000, guid: a0d48097aa9f15a45a545216a082065d, type: 3}
+    iconLock: {fileID: 21300000, guid: 1c9716f6492ced647b986d4fb6c46454, type: 3}
+  - nameVi: "B\xF4ng"
+    nameEng: Cotton
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 14
+    time: 960
+    slThuH: 2
+    levelUse: 33
+    exp: 2
+    icon: {fileID: 21300000, guid: d6f435c7cd44d7c4b9c01db89aabbf9e, type: 3}
+    iconLock: {fileID: 21300000, guid: 378afc1d0dea2294bb304a430a10e4f6, type: 3}
+  - nameVi: Hoa lan
+    nameEng: Orchid
+    describeEng: Harvest from Field
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE1nh \u0111\u1ED3ng"
+    coinBuy: 10
+    coinSell: 17
+    time: 960
+    slThuH: 2
+    levelUse: 35
+    exp: 2
+    icon: {fileID: 21300000, guid: 863b995669e287043bce658c219bbb6c, type: 3}
+    iconLock: {fileID: 21300000, guid: 8509cd298f1fb4e438ee9f011ef45ce3, type: 3}
+  - nameVi: "Qu\u1EA3 cherry"
+    nameEng: Cherry
+    describeEng: Harvest from Cherry tree
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y Cherry"
+    coinBuy: 10
+    coinSell: 15
+    time: 960
+    slThuH: 1
+    levelUse: 1
+    exp: 2
+    icon: {fileID: 21300000, guid: d6edc3c4975359b49b62b5e2c0ffd116, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Qu\u1EA3 cam"
+    nameEng: Orange
+    describeEng: Harvest from Orange tree
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y Cam"
+    coinBuy: 14
+    coinSell: 16
+    time: 960
+    slThuH: 1
+    levelUse: 3
+    exp: 2
+    icon: {fileID: 21300000, guid: 699200004d324ac419fff0e5abfbde85, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Qu\u1EA3 chanh"
+    nameEng: Lemon
+    describeEng: Harvest from Lemon tree
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y Chanh"
+    coinBuy: 10
+    coinSell: 14
+    time: 960
+    slThuH: 1
+    levelUse: 5
+    exp: 2
+    icon: {fileID: 21300000, guid: 833de53c92a690a479e2b1be43691e1e, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Qu\u1EA3 t\xE1o"
+    nameEng: Apple
+    describeEng: Harvest from Apple tree
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y T\xE1o"
+    coinBuy: 4
+    coinSell: 6
+    time: 960
+    slThuH: 1
+    levelUse: 7
+    exp: 2
+    icon: {fileID: 21300000, guid: 5201306b56d03b64c9823a25c9c4a14a, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Qu\u1EA3 anh \u0111\xE0o"
+    nameEng: Sakura
+    describeEng: Harvest from Sakura tree
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y Anh \u0111\xE0o"
+    coinBuy: 7
+    coinSell: 9
+    time: 960
+    slThuH: 1
+    levelUse: 9
+    exp: 2
+    icon: {fileID: 21300000, guid: 01cfadaa1220a9e44a4be43d5d381387, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "H\u1EA1t \u0111i\u1EC1u"
+    nameEng: Cashew
+    describeEng: Harvest from Cashew
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y \u0110i\u1EC1u"
+    coinBuy: 8
+    coinSell: 12
+    time: 960
+    slThuH: 1
+    levelUse: 11
+    exp: 2
+    icon: {fileID: 21300000, guid: 2c8190fb3d59f6641bd27b871294ffb9, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "\xD4 liu"
+    nameEng: Oliver
+    describeEng: Harvest from Oliver tree
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y \xD4 liu"
+    coinBuy: 15
+    coinSell: 17
+    time: 960
+    slThuH: 1
+    levelUse: 13
+    exp: 2
+    icon: {fileID: 21300000, guid: 0c5c6f272b61e8a40adeed8418196392, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Qu\u1EA3 l\u1EF1u"
+    nameEng: Pomegranate
+    describeEng: Harvest from Pomegranate
+    describeVi: "Thu ho\u1EA1ch t\u1EEB c\xE2y L\u1EF1u"
+    coinBuy: 10
+    coinSell: 12
+    time: 960
+    slThuH: 1
+    levelUse: 15
+    exp: 2
+    icon: {fileID: 21300000, guid: d448f5d42a343824095a7c8f339cead5, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Tr\u1EE9ng g\xE0"
+    nameEng: Egg
+    describeEng: Harvest from Chiken coop
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng g\xE0 "
+    coinBuy: 15
+    coinSell: 16
+    time: 960
+    slThuH: 1
+    levelUse: 2
+    exp: 1
+    icon: {fileID: 21300000, guid: f0ab1ab917b1c6c4f96e8e1b20484d73, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "S\u1EEFa b\xF2"
+    nameEng: Orchid
+    describeEng: Harvest from Cowshep
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng b\xF2"
+    coinBuy: 17
+    coinSell: 18
+    time: 960
+    slThuH: 1
+    levelUse: 4
+    exp: 2
+    icon: {fileID: 21300000, guid: d886f9efb866c10408ca9ec89b400ceb, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Th\u1ECBt l\u1EE3n"
+    nameEng: Bacon
+    describeEng: Harvest from Pig pen
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng l\u1EE3n"
+    coinBuy: 19
+    coinSell: 20
+    time: 960
+    slThuH: 1
+    levelUse: 6
+    exp: 2
+    icon: {fileID: 21300000, guid: 85a1c2138c4e53f41a42ea49bd45d382, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "N\xF4ng c\u1EEBu"
+    nameEng: Farm sheep
+    describeEng: Harvest from Sheep Pasture
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng c\u1EEBu"
+    coinBuy: 21
+    coinSell: 22
+    time: 960
+    slThuH: 1
+    levelUse: 10
+    exp: 2
+    icon: {fileID: 21300000, guid: 8a9c0d070895dfb4a973486829210df0, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "S\u1EEFa d\xEA"
+    nameEng: Milk goat
+    describeEng: Harvest from Goat yard
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng d\xEA"
+    coinBuy: 23
+    coinSell: 24
+    time: 960
+    slThuH: 1
+    levelUse: 14
+    exp: 2
+    icon: {fileID: 21300000, guid: 4c7f928f8786da64885ec8d6a840bbf7, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Th\u1ECBt ng\u1EF1a"
+    nameEng: Meat horse
+    describeEng: Harvest from Stable
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng ng\u1EF1a"
+    coinBuy: 25
+    coinSell: 26
+    time: 960
+    slThuH: 1
+    levelUse: 18
+    exp: 2
+    icon: {fileID: 21300000, guid: d16c56c94c1ca2943b44b6a8d2964445, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "M\u1EADt ong"
+    nameEng: Honey
+    describeEng: Harvest from Hive coop
+    describeVi: "Thu ho\u1EA1ch t\u1EEB Chu\u1ED3ng ong"
+    coinBuy: 27
+    coinSell: 28
+    time: 240
+    slThuH: 1
+    levelUse: 35
+    exp: 10
+    icon: {fileID: 21300000, guid: 3d2ba293512b1eb428b178b508edeb0f, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Th\u1EE9c \u0103n cho g\xE0"
+    nameEng: Chicken feed
+    describeEng: Produce in Feed mill
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y th\u1EE9c \u0103n"
+    coinBuy: 10
+    coinSell: 15
+    time: 120
+    slThuH: 3
+    levelUse: 2
+    exp: 4
+    icon: {fileID: 21300000, guid: bdf2753dbd4ec5948a54f02fc98b24b1, type: 3}
+    iconLock: {fileID: 21300000, guid: 6542563b6f394cd43ae841eb680a4332, type: 3}
+  - nameVi: "Th\u1EE9c \u0103n cho b\xF2"
+    nameEng: Cow feed
+    describeEng: Produce in Feed mill
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y th\u1EE9c \u0103n"
+    coinBuy: 12
+    coinSell: 14
+    time: 120
+    slThuH: 3
+    levelUse: 4
+    exp: 5
+    icon: {fileID: 21300000, guid: c99744cadaf51e44289746bfb8c11964, type: 3}
+    iconLock: {fileID: 21300000, guid: 3579decf6f909484bb3106f090b4e9f5, type: 3}
+  - nameVi: "Th\u1EE9c \u0103n cho l\u1EE3n"
+    nameEng: Pig feed
+    describeEng: Produce in Feed mill
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y th\u1EE9c \u0103n"
+    coinBuy: 10
+    coinSell: 15
+    time: 180
+    slThuH: 3
+    levelUse: 9
+    exp: 4
+    icon: {fileID: 21300000, guid: 0c9cda26d463aa745958c8a823c2b419, type: 3}
+    iconLock: {fileID: 21300000, guid: d14c305fe9a80ef46b744af895f4ea3f, type: 3}
+  - nameVi: "Th\u1EE9c \u0103n cho c\u1EEBu"
+    nameEng: Sheep feed
+    describeEng: Produce in feed mill
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y th\u1EE9c \u0103n"
+    coinBuy: 12
+    coinSell: 14
+    time: 180
+    slThuH: 3
+    levelUse: 10
+    exp: 3
+    icon: {fileID: 21300000, guid: b9a664aba5f2e614488a748f7a789e9d, type: 3}
+    iconLock: {fileID: 21300000, guid: 7dd26a6126ba0484a8f546eae0244ed7, type: 3}
+  - nameVi: "Th\u1EE9c \u0103n cho d\xEA"
+    nameEng: Goat feed
+    describeEng: Produce in Feed mill
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y th\u1EE9c \u0103n"
+    coinBuy: 20
+    coinSell: 22
+    time: 240
+    slThuH: 3
+    levelUse: 14
+    exp: 5
+    icon: {fileID: 21300000, guid: 373a94e37198be849b064609f601a719, type: 3}
+    iconLock: {fileID: 21300000, guid: 8f68d59234563e341b0e6a84cbe94afa, type: 3}
+  - nameVi: "Th\u1EE9c \u0103n cho ng\u1EF1a"
+    nameEng: Horse feed
+    describeEng: Produce in Feed mill
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y th\u1EE9c \u0103n"
+    coinBuy: 20
+    coinSell: 25
+    time: 240
+    slThuH: 3
+    levelUse: 18
+    exp: 6
+    icon: {fileID: 21300000, guid: 46a41d997cdda7641874f6ea3904327a, type: 3}
+    iconLock: {fileID: 21300000, guid: 169bff44961beec4c9bee8b6ea84929f, type: 3}
+  - nameVi: "B\u1ED9t m\xEC"
+    nameEng: Flour
+    describeEng: Produce in Dough factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u1ED9t"
+    coinBuy: 10
+    coinSell: 15
+    time: 120
+    slThuH: 1
+    levelUse: 3
+    exp: 5
+    icon: {fileID: 21300000, guid: 429891581dbf46b45a08f6d89b55e0ca, type: 3}
+    iconLock: {fileID: 21300000, guid: 885da83b0b2e93c43b1a1d462b2b5d25, type: 3}
+  - nameVi: "B\u1ED9t ng\xF4"
+    nameEng: Corn flour
+    describeEng: Produce in Dough factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u1ED9t"
+    coinBuy: 11
+    coinSell: 16
+    time: 180
+    slThuH: 1
+    levelUse: 6
+    exp: 6
+    icon: {fileID: 21300000, guid: 72c7ecbf933a8d7439231fd3ab529971, type: 3}
+    iconLock: {fileID: 21300000, guid: 157fd565a54653c4da5aa04d300bfdcd, type: 3}
+  - nameVi: "B\u1ED9t \u0111\u1EADu"
+    nameEng: Soybean flour
+    describeEng: Produce in Dough factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u1ED9t"
+    coinBuy: 12
+    coinSell: 17
+    time: 240
+    slThuH: 1
+    levelUse: 9
+    exp: 6
+    icon: {fileID: 21300000, guid: 7bc4a6747bdbc8f4896e309b36997830, type: 3}
+    iconLock: {fileID: 21300000, guid: 9965d8da4054f97459cbb5436171a5a4, type: 3}
+  - nameVi: "B\u1ED9t \u1EDBt"
+    nameEng: Chili powder
+    describeEng: Produce in Dough factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u1ED9t"
+    coinBuy: 13
+    coinSell: 18
+    time: 300
+    slThuH: 1
+    levelUse: 17
+    exp: 4
+    icon: {fileID: 21300000, guid: a1d41046c1dcb8340a224d0e59ac86be, type: 3}
+    iconLock: {fileID: 21300000, guid: dfdd259880277e44c8501b0ecd9b5657, type: 3}
+  - nameVi: "B\u1ED9t caf\xE9"
+    nameEng: Coffee powder
+    describeEng: Produce in Dough factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u1ED9t"
+    coinBuy: 14
+    coinSell: 20
+    time: 360
+    slThuH: 1
+    levelUse: 31
+    exp: 7
+    icon: {fileID: 21300000, guid: 650efedf4c7a6024ba23facb9b796999, type: 3}
+    iconLock: {fileID: 21300000, guid: 5463468ee35c51d41acd6ba64f35779e, type: 3}
+  - nameVi: "B\u01A1 b\xF2"
+    nameEng: Cow butter
+    describeEng: Produce in Butter factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u01A1"
+    coinBuy: 20
+    coinSell: 22
+    time: 120
+    slThuH: 1
+    levelUse: 6
+    exp: 6
+    icon: {fileID: 21300000, guid: 7e47f0c67aa1ffd418c1286d24609673, type: 3}
+    iconLock: {fileID: 21300000, guid: b8e12fbdc98e2664e89a118d83e4498b, type: 3}
+  - nameVi: "B\u01A1 b\u1EAFp"
+    nameEng: Corn butter
+    describeEng: Produce in Butter factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u01A1"
+    coinBuy: 21
+    coinSell: 23
+    time: 180
+    slThuH: 1
+    levelUse: 9
+    exp: 4
+    icon: {fileID: 21300000, guid: fdaecc0bca9b58a4c8a36293673896e6, type: 3}
+    iconLock: {fileID: 21300000, guid: 256bdf6b661c4b44a8d37a3bec1b3f07, type: 3}
+  - nameVi: "B\u01A1 \u0111\u1EADu"
+    nameEng: Soybean butter
+    describeEng: Produce in Butter factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u01A1"
+    coinBuy: 22
+    coinSell: 24
+    time: 240
+    slThuH: 1
+    levelUse: 12
+    exp: 6
+    icon: {fileID: 21300000, guid: 0608593c38b6947479f4c7b415ab35ac, type: 3}
+    iconLock: {fileID: 21300000, guid: 49060026927720a4e8564c196771ef29, type: 3}
+  - nameVi: "B\u01A1 oliu"
+    nameEng: Oliver butter
+    describeEng: Produce in Butter factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u01A1"
+    coinBuy: 25
+    coinSell: 27
+    time: 240
+    slThuH: 1
+    levelUse: 15
+    exp: 7
+    icon: {fileID: 21300000, guid: 2315a7881af6387499093e84d3255a67, type: 3}
+    iconLock: {fileID: 21300000, guid: 19d97180d3ab6e140ab2351942d03caa, type: 3}
+  - nameVi: "B\u01A1 d\xEA"
+    nameEng: Goat butter
+    describeEng: Produce in Butter factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y b\u01A1"
+    coinBuy: 26
+    coinSell: 30
+    time: 300
+    slThuH: 2
+    levelUse: 18
+    exp: 7
+    icon: {fileID: 21300000, guid: fb6d8aa9219938143b3e2a59187de3df, type: 3}
+    iconLock: {fileID: 21300000, guid: 51952823b4870194c8e734e34b25daa3, type: 3}
+  - nameVi: "G\u1ED7 mi\u1EBFng"
+    nameEng: Wood pieces
+    describeEng: Produce in Ore factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y qu\u1EB7ng"
+    coinBuy: 2
+    coinSell: 1
+    time: 120
+    slThuH: 2
+    levelUse: 8
+    exp: 2
+    icon: {fileID: 21300000, guid: 0a8e084a3d7b9394093d7ddc5d4da1fc, type: 3}
+    iconLock: {fileID: 21300000, guid: 0b849e4800e589c41af5901de9e9fbfd, type: 3}
+  - nameVi: "G\u1ED7 thanh"
+    nameEng: Stick wood
+    describeEng: Produce in Ore factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y qu\u1EB7ng"
+    coinBuy: 2
+    coinSell: 1
+    time: 120
+    slThuH: 2
+    levelUse: 9
+    exp: 2
+    icon: {fileID: 21300000, guid: d0142b46e664e8a4b90fad4e7c2b8c8b, type: 3}
+    iconLock: {fileID: 21300000, guid: 63ec0268640e5aa49bd9954b3d9c3d6d, type: 3}
+  - nameVi: "S\u1EAFt mi\u1EBFng"
+    nameEng: Iron pieces
+    describeEng: Produce in Ore factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y qu\u1EB7ng"
+    coinBuy: 2
+    coinSell: 1
+    time: 120
+    slThuH: 2
+    levelUse: 10
+    exp: 2
+    icon: {fileID: 21300000, guid: 6944dbfcf188592419736b1c5c64f401, type: 3}
+    iconLock: {fileID: 21300000, guid: 0439061bc0860774594be4bb2ee65e68, type: 3}
+  - nameVi: "\u0110inh"
+    nameEng: Nail
+    describeEng: Produce in Ore factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y qu\u1EB7ng"
+    coinBuy: 2
+    coinSell: 1
+    time: 120
+    slThuH: 2
+    levelUse: 11
+    exp: 2
+    icon: {fileID: 21300000, guid: fd1b60296304c2342924ef3c84cdbc85, type: 3}
+    iconLock: {fileID: 21300000, guid: ff637ac8fe948a641b1b8d30bc032059, type: 3}
+  - nameVi: "\u1ED0c v\xEDt"
+    nameEng: Screws
+    describeEng: Produce in Ore factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y qu\u1EB7ng"
+    coinBuy: 2
+    coinSell: 1
+    time: 120
+    slThuH: 2
+    levelUse: 12
+    exp: 2
+    icon: {fileID: 21300000, guid: 2e48d4151fb21ca45ac7b82e784e8c86, type: 3}
+    iconLock: {fileID: 21300000, guid: 4ae31db0ea3da2747a5199f9cc205982, type: 3}
+  - nameVi: "\u0110\u01B0\u1EDDng vi\xEAn"
+    nameEng: Sugar tablets
+    describeEng: Produce in Sugar factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    coinBuy: 10
+    coinSell: 20
+    time: 180
+    slThuH: 1
+    levelUse: 10
+    exp: 6
+    icon: {fileID: 21300000, guid: 9ff3322bef799a240aa776f8e8bba03a, type: 3}
+    iconLock: {fileID: 21300000, guid: 4c92fa8a49d4e2c409da71ddab3205fe, type: 3}
+  - nameVi: "\u0110\u01B0\u1EDDng tr\u1EAFng"
+    nameEng: White sugar
+    describeEng: Produce in Sugar factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    coinBuy: 20
+    coinSell: 30
+    time: 180
+    slThuH: 1
+    levelUse: 14
+    exp: 10
+    icon: {fileID: 21300000, guid: 13159b53dd2d3754bb5091e163dc370c, type: 3}
+    iconLock: {fileID: 21300000, guid: 02ace1e1e9384fa42984ab5da994d037, type: 3}
+  - nameVi: "\u0110\u01B0\u1EDDng n\xE2u"
+    nameEng: Brown sugar
+    describeEng: Produce in Sugar factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    coinBuy: 25
+    coinSell: 35
+    time: 240
+    slThuH: 1
+    levelUse: 18
+    exp: 10
+    icon: {fileID: 21300000, guid: 868daf52596a237448e6b3b9287ddaf1, type: 3}
+    iconLock: {fileID: 21300000, guid: e8535ab17ca86284195c9006a9c2dd40, type: 3}
+  - nameVi: "B\xE1nh d\u1EE9a"
+    nameEng: Pineapple cake
+    describeEng: Produce in Sugar factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    coinBuy: 35
+    coinSell: 45
+    time: 240
+    slThuH: 1
+    levelUse: 22
+    exp: 2
+    icon: {fileID: 21300000, guid: 656f615db9720e843877e919a25c8d7b, type: 3}
+    iconLock: {fileID: 21300000, guid: eafafde82d4d8464194fb4a5be43c826, type: 3}
+  - nameVi: Socola
+    nameEng: Socola
+    describeEng: Produce in Sugar factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    coinBuy: 30
+    coinSell: 40
+    time: 300
+    slThuH: 1
+    levelUse: 26
+    exp: 10
+    icon: {fileID: 21300000, guid: 42145b4c14a361b409b7aafe8e015805, type: 3}
+    iconLock: {fileID: 21300000, guid: 027a470e7bfdc534ca079a4fa3aa4411, type: 3}
+  - nameVi: "S\u1EEFa chua"
+    nameEng: Yogurt
+    describeEng: Produce in Milk factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y s\u1EEFa"
+    coinBuy: 20
+    coinSell: 30
+    time: 180
+    slThuH: 1
+    levelUse: 12
+    exp: 10
+    icon: {fileID: 21300000, guid: a064eefb9460ce14c9a2beacf4b900b4, type: 3}
+    iconLock: {fileID: 21300000, guid: 4b8bcf9817b68f24f8a8a8b2f85e15b0, type: 3}
+  - nameVi: "S\u1EEFa \u0111\u1EADu l\xE0nh"
+    nameEng: Soymilk
+    describeEng: Produce in Milk factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y s\u1EEFa"
+    coinBuy: 20
+    coinSell: 32
+    time: 180
+    slThuH: 1
+    levelUse: 16
+    exp: 10
+    icon: {fileID: 21300000, guid: 8075d686aa22e804a897b5aef0e61669, type: 3}
+    iconLock: {fileID: 21300000, guid: e058669960829614fbec7208895c67f9, type: 3}
+  - nameVi: "S\u1EEFa non d\xEA"
+    nameEng: Goat colostrum
+    describeEng: Produce in Milk factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y s\u1EEFa"
+    coinBuy: 21
+    coinSell: 31
+    time: 180
+    slThuH: 1
+    levelUse: 20
+    exp: 15
+    icon: {fileID: 21300000, guid: 09271a50805c1b84bbb31798f6322025, type: 3}
+    iconLock: {fileID: 21300000, guid: 38b1d1ff23bbd37478ed5ef14a116b14, type: 3}
+  - nameVi: "S\u1EEFa d\xE2u t\xE2y"
+    nameEng: Strawberry milk
+    describeEng: Produce in Milk factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y s\u1EEFa"
+    coinBuy: 35
+    coinSell: 40
+    time: 240
+    slThuH: 1
+    levelUse: 24
+    exp: 20
+    icon: {fileID: 21300000, guid: 1559fa052d37f4544add48684f1c6135, type: 3}
+    iconLock: {fileID: 21300000, guid: 58920062b4ad04c469d872d5128bf6f5, type: 3}
+  - nameVi: "S\u1EEFa nho"
+    nameEng: Grape milk
+    describeEng: Produce in Milk factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y s\u1EEFa"
+    coinBuy: 30
+    coinSell: 40
+    time: 300
+    slThuH: 1
+    levelUse: 28
+    exp: 21
+    icon: {fileID: 21300000, guid: 7c2df71476d0c0a4da43dd7186cc59b0, type: 3}
+    iconLock: {fileID: 21300000, guid: d30de75c3b6d7de4eafdc7cd50d75bd8, type: 3}
+  - nameVi: "X\xFAc x\xEDch"
+    nameEng: Hotdog
+    describeEng: Produce in Grill factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y n\u01B0\u1EDBng"
+    coinBuy: 20
+    coinSell: 30
+    time: 180
+    slThuH: 1
+    levelUse: 14
+    exp: 10
+    icon: {fileID: 21300000, guid: ab64ad79a0c7aad46ba0fc96083fa04b, type: 3}
+    iconLock: {fileID: 21300000, guid: e5ed5851ca9a2da48b4ed7e33ab4b674, type: 3}
+  - nameVi: "\u0110\xF9i heo quay"
+    nameEng: Roast pork leg
+    describeEng: Produce in Grill factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y n\u01B0\u1EDBng"
+    coinBuy: 30
+    coinSell: 40
+    time: 180
+    slThuH: 1
+    levelUse: 17
+    exp: 10
+    icon: {fileID: 21300000, guid: d938f5c5937f6344fb242090c92f2128, type: 3}
+    iconLock: {fileID: 21300000, guid: 1c5a70dada77c22488e9881e095eeb01, type: 3}
+  - nameVi: "Th\u1ECBt n\u01B0\u1EDBng"
+    nameEng: Grill meat
+    describeEng: Produce in Grill factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y n\u01B0\u1EDBng"
+    coinBuy: 30
+    coinSell: 40
+    time: 240
+    slThuH: 2
+    levelUse: 20
+    exp: 10
+    icon: {fileID: 21300000, guid: 569af6bf2fa30984abd2deeaacd56039, type: 3}
+    iconLock: {fileID: 21300000, guid: 16e0a97a3ab7a7a4faaee5c67cef10e8, type: 3}
+  - nameVi: "Ng\u1EF1a n\u01B0\u1EDBng"
+    nameEng: Grilled horse
+    describeEng: Produce in Grill factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y n\u01B0\u1EDBng"
+    coinBuy: 20
+    coinSell: 25
+    time: 300
+    slThuH: 2
+    levelUse: 26
+    exp: 10
+    icon: {fileID: 21300000, guid: 0c4f8b5b89081c84ab6e3399d8d9598c, type: 3}
+    iconLock: {fileID: 21300000, guid: b82d7d83c99261842b0df9859ff5dd27, type: 3}
+  - nameVi: "Ng\u1EF1a n\u01B0\u1EDBng cay"
+    nameEng: Spicy grilled horse
+    describeEng: Produce in Grill factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y n\u01B0\u1EDBng"
+    coinBuy: 10
+    coinSell: 20
+    time: 300
+    slThuH: 2
+    levelUse: 30
+    exp: 10
+    icon: {fileID: 21300000, guid: 3546ec6df1451dc40a1a67c308656056, type: 3}
+    iconLock: {fileID: 21300000, guid: 775f887ca593477419a67f692afd6ee2, type: 3}
+  - nameVi: "Pizza tr\u1EE9ng s\u1EEFa"
+    nameEng: Pizza egg milk
+    describeEng: Produce in Piza oven
+    describeVi: "S\u1EA3n xu\u1EA5t trong L\xF2 pizza"
+    coinBuy: 20
+    coinSell: 25
+    time: 120
+    slThuH: 2
+    levelUse: 16
+    exp: 20
+    icon: {fileID: 21300000, guid: 46d6a4243b517694dbd3b5c6626d57a9, type: 3}
+    iconLock: {fileID: 21300000, guid: 24a0019bf088fa24f85abb2c18c44d41, type: 3}
+  - nameVi: "Pizza b\xF2 cay"
+    nameEng: Spicy beef pizza
+    describeEng: Produce in Piza oven
+    describeVi: "S\u1EA3n xu\u1EA5t trong L\xF2 pizza"
+    coinBuy: 20
+    coinSell: 26
+    time: 180
+    slThuH: 2
+    levelUse: 20
+    exp: 15
+    icon: {fileID: 21300000, guid: 191170d81a1ab294a9471dd6a301d1af, type: 3}
+    iconLock: {fileID: 21300000, guid: 012b3b124e7a7a2438a174a548e1e717, type: 3}
+  - nameVi: "B\xE1nh cherry"
+    nameEng: Cherry cake
+    describeEng: Produce in Piza oven
+    describeVi: "S\u1EA3n xu\u1EA5t trong L\xF2 pizza"
+    coinBuy: 30
+    coinSell: 32
+    time: 180
+    slThuH: 1
+    levelUse: 24
+    exp: 16
+    icon: {fileID: 21300000, guid: 4f02bb8a9bff95c45863af85810e8436, type: 3}
+    iconLock: {fileID: 21300000, guid: 1dbbeaca0b21c4a41a285138d0cbfa98, type: 3}
+  - nameVi: "Pizza mi\u1EBFng"
+    nameEng: Pizza pieces
+    describeEng: Produce in Piza oven
+    describeVi: "S\u1EA3n xu\u1EA5t trong L\xF2 pizza"
+    coinBuy: 20
+    coinSell: 25
+    time: 180
+    slThuH: 1
+    levelUse: 30
+    exp: 10
+    icon: {fileID: 21300000, guid: 9347ec9fe2f8d6048946af188003e406, type: 3}
+    iconLock: {fileID: 21300000, guid: ac8bc950049cc2244a94cf93c1416517, type: 3}
+  - nameVi: "B\xE1nh d\xE2u t\xE2y"
+    nameEng: Strawberry cake
+    describeEng: Produce in Piza oven
+    describeVi: "S\u1EA3n xu\u1EA5t trong L\xF2 pizza"
+    coinBuy: 25
+    coinSell: 30
+    time: 180
+    slThuH: 1
+    levelUse: 36
+    exp: 10
+    icon: {fileID: 21300000, guid: 5a22b907cf2785146b2e7465390542ae, type: 3}
+    iconLock: {fileID: 21300000, guid: 1ec5573a23980764e935d5acc1ca6912, type: 3}
+  - nameVi: "B\xE1nh t\u1ED5 ong"
+    nameEng: Beehive cake
+    describeEng: Produce in Honey factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y m\u1EADt ong"
+    coinBuy: 30
+    coinSell: 35
+    time: 180
+    slThuH: 1
+    levelUse: 23
+    exp: 13
+    icon: {fileID: 21300000, guid: 82b22eb6d03bfbc4bb4df3bfea9faf08, type: 3}
+    iconLock: {fileID: 21300000, guid: 486c0af7ef3dba7438302782a5ecf207, type: 3}
+  - nameVi: "B\xE1nh m\xEC m\u1EADt ong"
+    nameEng: Honey bread
+    describeEng: Produce in Honey factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y m\u1EADt ong"
+    coinBuy: 30
+    coinSell: 41
+    time: 240
+    slThuH: 1
+    levelUse: 27
+    exp: 10
+    icon: {fileID: 21300000, guid: ca4d0eb04a0300c4aa5946b8f746a1bf, type: 3}
+    iconLock: {fileID: 21300000, guid: 971141e369dba2445bd2ad7cb5f1a067, type: 3}
+  - nameVi: "M\u1EADt ong chanh"
+    nameEng: Honey lemon
+    describeEng: Produce in Honey factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y m\u1EADt ong"
+    coinBuy: 10
+    coinSell: 30
+    time: 240
+    slThuH: 1
+    levelUse: 32
+    exp: 12
+    icon: {fileID: 21300000, guid: 07c34a1337b019f43892c5e3547e5218, type: 3}
+    iconLock: {fileID: 21300000, guid: 0c73c6a63fddd204cb73ba351c97e89e, type: 3}
+  - nameVi: "M\u1EADt ong hoa qu\u1EA3"
+    nameEng: Fruit honey
+    describeEng: Produce in Honey factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y m\u1EADt ong"
+    coinBuy: 30
+    coinSell: 40
+    time: 240
+    slThuH: 1
+    levelUse: 38
+    exp: 20
+    icon: {fileID: 21300000, guid: 459b60b01423a2f489fab97b4633900b, type: 3}
+    iconLock: {fileID: 21300000, guid: f5413debb28eab54c85a4380009ec82d, type: 3}
+  - nameVi: "M\u1EADt ong ngh\u1EC7"
+    nameEng: Turmeric honey
+    describeEng: Produce in Honey factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y m\u1EADt ong"
+    coinBuy: 30
+    coinSell: 40
+    time: 240
+    slThuH: 1
+    levelUse: 45
+    exp: 15
+    icon: {fileID: 21300000, guid: 44a76a81ccf0aff4fa8b2a60ae29b8fa, type: 3}
+    iconLock: {fileID: 21300000, guid: 810fd77a6493cfe4f8dddff575b53646, type: 3}
+  - nameVi: "N\u01B0\u1EDBc cam"
+    nameEng: Orange juice
+    describeEng: 'Produce in Pressing factory '
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \xE9p"
+    coinBuy: 20
+    coinSell: 30
+    time: 120
+    slThuH: 1
+    levelUse: 30
+    exp: 20
+    icon: {fileID: 21300000, guid: ec9910a440fdbc04fae1cf0ac0d93a0d, type: 3}
+    iconLock: {fileID: 21300000, guid: c9ce24ab8dc88654b8b2cb8c2d30cba2, type: 3}
+  - nameVi: "N\u01B0\u01A1c chanh"
+    nameEng: Lemon juice
+    describeEng: Produce in Pressing factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \xE9p"
+    coinBuy: 20
+    coinSell: 30
+    time: 120
+    slThuH: 1
+    levelUse: 36
+    exp: 10
+    icon: {fileID: 21300000, guid: 78a2bcb824ffe0649b270850b191491f, type: 3}
+    iconLock: {fileID: 21300000, guid: d2215eda6d894914eaf72043ea32f40a, type: 3}
+  - nameVi: "N\u01B0\u1EDBc t\xE1o"
+    nameEng: Apple juice
+    describeEng: Produce in Pressing factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \xE9p"
+    coinBuy: 30
+    coinSell: 40
+    time: 120
+    slThuH: 1
+    levelUse: 42
+    exp: 20
+    icon: {fileID: 21300000, guid: 0ca1c65093e86f94d8306bb151e27f3d, type: 3}
+    iconLock: {fileID: 21300000, guid: 5fa340bf7bbcb6d428868b705fa379df, type: 3}
+  - nameVi: "N\u01B0\u1EDBc anh \u0111\xE0o"
+    nameEng: Sakura juice
+    describeEng: Produce in Pressing factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \xE9p"
+    coinBuy: 20
+    coinSell: 30
+    time: 180
+    slThuH: 1
+    levelUse: 48
+    exp: 20
+    icon: {fileID: 21300000, guid: 803b0505171ce5c4ebe40072dd57d129, type: 3}
+    iconLock: {fileID: 21300000, guid: d3f2dd845f2ed4145bcc58bd8b4bd062, type: 3}
+  - nameVi: "N\u01B0\u1EDBc d\u01B0a h\u1EA5u"
+    nameEng: Watermelon juice
+    describeEng: Produce in Pressing factory
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y \xE9p"
+    coinBuy: 30
+    coinSell: 40
+    time: 240
+    slThuH: 1
+    levelUse: 54
+    exp: 20
+    icon: {fileID: 21300000, guid: dd077a26a1859924faea8ccafbd6b688, type: 3}
+    iconLock: {fileID: 21300000, guid: 099a5e77faebea84e94da065fda061a6, type: 3}
+  - nameVi: "R\u01B0\u1EE3u cherry"
+    nameEng: Cherry wine
+    describeEng: Produce in Winery
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y r\u01B0\u1EE3u"
+    coinBuy: 20
+    coinSell: 30
+    time: 120
+    slThuH: 1
+    levelUse: 40
+    exp: 20
+    icon: {fileID: 21300000, guid: 1230a7ef28785c54cb1556cd1c3d93ce, type: 3}
+    iconLock: {fileID: 21300000, guid: da8b8f3b61d004945951195a0b413835, type: 3}
+  - nameVi: "R\u01B0\u1EE3u anh \u0111\xE0o"
+    nameEng: Sakura wine
+    describeEng: Produce in Winery
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y r\u01B0\u1EE3u"
+    coinBuy: 30
+    coinSell: 40
+    time: 120
+    slThuH: 1
+    levelUse: 45
+    exp: 30
+    icon: {fileID: 21300000, guid: 974fbf085de35984da8ad1ea6d3ef772, type: 3}
+    iconLock: {fileID: 21300000, guid: 0e28f2fbf2b0a3342a874ff08f1c5f3c, type: 3}
+  - nameVi: "R\u01B0\u1EE3u r\u1EE9a"
+    nameEng: Pineapple wine
+    describeEng: Produce in Winery
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y r\u01B0\u1EE3u"
+    coinBuy: 30
+    coinSell: 50
+    time: 180
+    slThuH: 1
+    levelUse: 50
+    exp: 30
+    icon: {fileID: 21300000, guid: 4ce0e73987b22ba4b85b729c368a1287, type: 3}
+    iconLock: {fileID: 21300000, guid: 1673aa61994c4d64797c651473d32977, type: 3}
+  - nameVi: "R\u01B0\u1EE3u nho"
+    nameEng: Grape wine
+    describeEng: Produce in Winery
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y r\u01B0\u1EE3u"
+    coinBuy: 40
+    coinSell: 50
+    time: 240
+    slThuH: 1
+    levelUse: 55
+    exp: 20
+    icon: {fileID: 21300000, guid: f8c53b0b6d035854c931dd75815909a6, type: 3}
+    iconLock: {fileID: 21300000, guid: 63abc28cf50d57a4ca8ae502286ca8c9, type: 3}
+  - nameVi: "R\u01B0\u1EE3u t\xE1o"
+    nameEng: Apple wine
+    describeEng: Produce in Winery
+    describeVi: "S\u1EA3n xu\u1EA5t trong nh\xE0 m\xE1y r\u01B0\u1EE3u"
+    coinBuy: 40
+    coinSell: 50
+    time: 240
+    slThuH: 1
+    levelUse: 60
+    exp: 20
+    icon: {fileID: 21300000, guid: 9c0030e682df0bf43ac9c2646da216b6, type: 3}
+    iconLock: {fileID: 21300000, guid: e87c9490241f688449a83822220fb46e, type: 3}
+  - nameVi: "G\u1ED7"
+    nameEng: Wood
+    describeEng: Created when sawing trees
+    describeVi: "T\u1EA1o ra khi c\u01B0a c\xE2y"
+    coinBuy: 10
+    coinSell: 20
+    time: 0
+    slThuH: 2
+    levelUse: 0
+    exp: 3
+    icon: {fileID: 21300000, guid: 02df06c43ca76474eba1f967a4019117, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Qu\u1EB7ng"
+    nameEng: Ore
+    describeEng: created when destroying rocks
+    describeVi: "T\u1EA1o ra khi ph\xE1 h\u1EE7y \u0111\xE1"
+    coinBuy: 10
+    coinSell: 20
+    time: 0
+    slThuH: 2
+    levelUse: 0
+    exp: 20
+    icon: {fileID: 21300000, guid: c65901a52e20c9d4a9a5c16e4ac7bf89, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "C\u01B0a"
+    nameEng: Saw
+    describeEng: Used to saw the tree
+    describeVi: "D\xF9ng \u0111\u1EC3 c\u01B0a c\xE2y"
+    coinBuy: 10
+    coinSell: 15
+    time: 0
+    slThuH: 1
+    levelUse: 0
+    exp: 20
+    icon: {fileID: 21300000, guid: 41094f720338da04eb21a7a7c5f62e19, type: 3}
+    iconLock: {fileID: 0}
+  - nameVi: "Thu\u1ED1c n\u1ED5"
+    nameEng: Boom
+    describeEng: Used to explode rocks
+    describeVi: "D\xF9ng ph\xE1 h\u1EE7y \u0111\xE1"
+    coinBuy: 10
+    coinSell: 20
+    time: 0
+    slThuH: 1
+    levelUse: 0
+    exp: 20
+    icon: {fileID: 21300000, guid: 7202c153c5b605349909593dca5c92cf, type: 3}
+    iconLock: {fileID: 0}

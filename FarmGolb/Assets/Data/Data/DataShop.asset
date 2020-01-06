@@ -1,0 +1,563 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2bfd09d6fd1c84a85b53a090d8dac1, type: 3}
+  m_Name: DataShop
+  m_EditorClassIdentifier: 
+  dataItemShop:
+  - nameVi: "\xD4 \u0111\u1EA5t"
+    idType: 0
+    nameEng: Field
+    levelUse: 1
+    coin: 10
+    slkeo: 6
+    slmax: 9
+    plusLevel: 3
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: 18d93df79109d264995733819efae597, type: 3}
+    iconLock: {fileID: 21300000, guid: 18d93df79109d264995733819efae597, type: 3}
+    itemShop: {fileID: 1497419772982814, guid: ce779e1a2fec74c41a173e864250d5b3, type: 3}
+  - nameVi: "S\u1EA3n xu\u1EA5t th\u1EE9c \u0103n"
+    idType: 1
+    nameEng: Feed Mill
+    levelUse: 2
+    coin: 50
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 1a93c7a490a80b14ebc21afafa852074, type: 3}
+    iconLock: {fileID: 21300000, guid: bf852ea56d6bc984687354ad93835360, type: 3}
+    itemShop: {fileID: 1027608686415221595, guid: 761119b4191a2de45a9aa5bf03eb0415,
+      type: 3}
+  - nameVi: "M\xE1y b\u1ED9t"
+    idType: 1
+    nameEng: Dough factory
+    levelUse: 3
+    coin: 100
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 6f887eb93842d444da79e69d0735ba3c, type: 3}
+    iconLock: {fileID: 21300000, guid: e6e71cb445e68ff46890b3f75a7adad3, type: 3}
+    itemShop: {fileID: 8532847756041170895, guid: 76e2e3195c959ce49a17138a0b3a536d,
+      type: 3}
+  - nameVi: "M\xE1y b\u01A1"
+    idType: 1
+    nameEng: Butter factory
+    levelUse: 6
+    coin: 110
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 803e41232526af34ca10ad70b290d45e, type: 3}
+    iconLock: {fileID: 21300000, guid: 0450a3794e08b68419cf35626b250992, type: 3}
+    itemShop: {fileID: 7516869448893956308, guid: 3f46d2c5401e03d4db4872466a4633ea,
+      type: 3}
+  - nameVi: "M\xE1y qu\u1EB7ng"
+    idType: 1
+    nameEng: Ore factory
+    levelUse: 8
+    coin: 120
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 6fb842dd10ce1c145827468a01dfc17f, type: 3}
+    iconLock: {fileID: 21300000, guid: f0ec30da494744b42a5219ec6c155633, type: 3}
+    itemShop: {fileID: 3781502809138764714, guid: 87698569b3988a24b916aa6eaa6b1bc1,
+      type: 3}
+  - nameVi: "M\xE1y \u0111\u01B0\u1EDDng"
+    idType: 1
+    nameEng: Sugar factory
+    levelUse: 10
+    coin: 130
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: c6adabe17ffa96f48af831b0d96e08fd, type: 3}
+    iconLock: {fileID: 21300000, guid: e4ef5dbe5dbb9c94382c174746dc60c8, type: 3}
+    itemShop: {fileID: 7113438607274781267, guid: 64355a7e81dd9f346adbee98f4bda5cd,
+      type: 3}
+  - nameVi: "M\xE1y s\u1EEFa"
+    idType: 1
+    nameEng: Milk factory
+    levelUse: 12
+    coin: 135
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 48c7d90a89ae9ca4283a8d393b0fd653, type: 3}
+    iconLock: {fileID: 21300000, guid: 66a3bf6355375384caea6c605ddca4c8, type: 3}
+    itemShop: {fileID: 1850491912463793422, guid: 96a607da28998f54cb5a588a31277355,
+      type: 3}
+  - nameVi: "M\xE1y n\u01B0\u1EDBng"
+    idType: 1
+    nameEng: Grill factory
+    levelUse: 14
+    coin: 140
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 73f2a20c9996da841af6da87dfbcd5b2, type: 3}
+    iconLock: {fileID: 21300000, guid: 969f40edea5961a4abbe18a69c801f79, type: 3}
+    itemShop: {fileID: 8425480789156425384, guid: d1d2568c82afbf548879ffeffa2f8cca,
+      type: 3}
+  - nameVi: "L\xF2 pizza"
+    idType: 1
+    nameEng: Piza oven
+    levelUse: 16
+    coin: 145
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 39428b90d9f1d0b4aba98edfd0e39b55, type: 3}
+    iconLock: {fileID: 21300000, guid: f6534ed3aba3e23488f3d8dcb4fe571d, type: 3}
+    itemShop: {fileID: 7496675568585192082, guid: c0ec7c1e373bc3c49bff0487782f08e6,
+      type: 3}
+  - nameVi: "M\xE1y m\u1EADt ong"
+    idType: 1
+    nameEng: Honey factory
+    levelUse: 23
+    coin: 150
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 500cb2ef32c420a45a192e9a05333a7c, type: 3}
+    iconLock: {fileID: 21300000, guid: febd7a254211a8148ae255806e8726da, type: 3}
+    itemShop: {fileID: 4772186273103178784, guid: a6adc2a515c8b504aa1c31b5632802d8,
+      type: 3}
+  - nameVi: "M\xE1y \xE9p"
+    idType: 1
+    nameEng: Pressing factory
+    levelUse: 30
+    coin: 155
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: f86b37a8088b32b40a641acfaf5f292d, type: 3}
+    iconLock: {fileID: 21300000, guid: 10a8a276d366a4a4b9ddc9509cbf3f76, type: 3}
+    itemShop: {fileID: 6391017173064823931, guid: 97599446d619fda48b42352ccf32de37,
+      type: 3}
+  - nameVi: "M\xE1y r\u01B0\u1EE3u"
+    idType: 1
+    nameEng: Winery
+    levelUse: 40
+    coin: 160
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: ab17228fe04e6d64db4b316fcf0d9224, type: 3}
+    iconLock: {fileID: 21300000, guid: cdfe218f8440c6f48abc30e88d40bd5d, type: 3}
+    itemShop: {fileID: 1925987072060886689, guid: 53d9a40e214a5e84a93e42af2702a669,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng G\xE0"
+    idType: 2
+    nameEng: Chicken coop
+    levelUse: 1
+    coin: 10
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 212be29ceb40d2b4b8f173c8e80d87b0, type: 3}
+    iconLock: {fileID: 21300000, guid: 23e8671421acdfb4da3ac606629580d4, type: 3}
+    itemShop: {fileID: 1829218189286855239, guid: 7c6f6347819e51840ad1c7d266eaf4b4,
+      type: 3}
+  - nameVi: "Con g\xE0"
+    idType: 3
+    nameEng: Chicken
+    levelUse: 1
+    coin: 10
+    slkeo: 0
+    slmax: 3
+    plusLevel: 10
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: 5f47080220a21f348b0a2f09498d5631, type: 3}
+    iconLock: {fileID: 21300000, guid: fd5a6735f9db519458530f69775bf146, type: 3}
+    itemShop: {fileID: 898274913783568845, guid: 5881f9de149d22842ac8cbdbfadfb187,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng B\xF2"
+    idType: 2
+    nameEng: Cowshed
+    levelUse: 4
+    coin: 20
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 786d876d96715564eb40f016c5edbbd7, type: 3}
+    iconLock: {fileID: 21300000, guid: 353d8c04bc9ebf5449024720c84e2a4f, type: 3}
+    itemShop: {fileID: 8600944588637114044, guid: db9ca04ab4f038541af639d772a9bcb5,
+      type: 3}
+  - nameVi: "Con b\xF2"
+    idType: 3
+    nameEng: Cow
+    levelUse: 4
+    coin: 20
+    slkeo: 0
+    slmax: 3
+    plusLevel: 10
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: c92dbfc02ee3b42478ed596bfd313db7, type: 3}
+    iconLock: {fileID: 21300000, guid: 1de3601b045cdae47934804915d97184, type: 3}
+    itemShop: {fileID: 2004312788753092779, guid: d98cc4077e6a4b849b26715a0410da2c,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng L\u1EE3n"
+    idType: 2
+    nameEng: Pig pen
+    levelUse: 9
+    coin: 30
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: eca0bce52f4390640b45d359d49774bf, type: 3}
+    iconLock: {fileID: 21300000, guid: 11d7c218063058340b8d2942652103da, type: 3}
+    itemShop: {fileID: 9094113738833819235, guid: 2a236f065e625bf4da3f150f30646a8f,
+      type: 3}
+  - nameVi: "Con l\u1EE3n"
+    idType: 3
+    nameEng: Pig
+    levelUse: 9
+    coin: 30
+    slkeo: 0
+    slmax: 3
+    plusLevel: 10
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: 9e35d09abb0fd114aa9a1592f94343b5, type: 3}
+    iconLock: {fileID: 21300000, guid: 3206297c3542c40419d54db43795cb21, type: 3}
+    itemShop: {fileID: 2858580015324285157, guid: 0821edecca08b184a98281aa17d367ec,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng C\u1EEBu"
+    idType: 2
+    nameEng: Sheep Pasture
+    levelUse: 10
+    coin: 40
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 9e44528cf5243ba4182c3a7543043912, type: 3}
+    iconLock: {fileID: 21300000, guid: 5070bb64d93c12243b27b6eeef4fa934, type: 3}
+    itemShop: {fileID: 1944645296247178092, guid: 127ee3422898f9c41aac6cec3d22efb2,
+      type: 3}
+  - nameVi: "Con c\u1EEBu"
+    idType: 3
+    nameEng: Sheep
+    levelUse: 10
+    coin: 40
+    slkeo: 0
+    slmax: 3
+    plusLevel: 10
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: f80f1d5820c23c34b97ff8a96c2488aa, type: 3}
+    iconLock: {fileID: 21300000, guid: 4279236ac29c9604490f69bff53c5025, type: 3}
+    itemShop: {fileID: 8841147957936492621, guid: 806e058c415f06547959278db009d6b9,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng D\xEA"
+    idType: 2
+    nameEng: Goat Yard
+    levelUse: 14
+    coin: 50
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: e13ff9606c39a7541a6bdd28851cdc83, type: 3}
+    iconLock: {fileID: 21300000, guid: 21611d1758fb6a84e9ccb360def894c0, type: 3}
+    itemShop: {fileID: 6727503134204828345, guid: 96dce355db720df43b85f1067aee87e9,
+      type: 3}
+  - nameVi: "Con d\xEA"
+    idType: 3
+    nameEng: Goat
+    levelUse: 14
+    coin: 50
+    slkeo: 0
+    slmax: 3
+    plusLevel: 10
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: 1ee689c86beac944394067f68131f6e2, type: 3}
+    iconLock: {fileID: 21300000, guid: f1cf1c9ebfda12e42b74b22ea3d083a6, type: 3}
+    itemShop: {fileID: 3054834710055062788, guid: 3c93309b53764dc4590f97ef5807d311,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng Ng\u1EF1a"
+    idType: 2
+    nameEng: Stable
+    levelUse: 18
+    coin: 60
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 9e2e5aef04299e64d8662c45cab37cd3, type: 3}
+    iconLock: {fileID: 21300000, guid: 02835131d27b8e1408e15bdbc70928ec, type: 3}
+    itemShop: {fileID: 5319351281246163516, guid: 2eabdeda53d7e16459db82c64c56e801,
+      type: 3}
+  - nameVi: "Con ng\u1EF1a"
+    idType: 3
+    nameEng: Horse
+    levelUse: 18
+    coin: 60
+    slkeo: 0
+    slmax: 3
+    plusLevel: 10
+    plusMaxsl: 3
+    icon: {fileID: 21300000, guid: bbc74a34a2176eb43ba87966b485dc80, type: 3}
+    iconLock: {fileID: 21300000, guid: 2d0452296c94b704fa5934b60d3e4f8b, type: 3}
+    itemShop: {fileID: 3376823855693638554, guid: 3786c2b8d28d00d48ac31c81a39ac26e,
+      type: 3}
+  - nameVi: "Chu\u1ED3ng ong"
+    idType: 6
+    nameEng: Hive coop
+    levelUse: 22
+    coin: 70
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: c215df46f38cd184dbe57490c6074134, type: 3}
+    iconLock: {fileID: 21300000, guid: c94fcb0b7bcb6eb43809cd5e2dc3b39b, type: 3}
+    itemShop: {fileID: 3314333883893031085, guid: 5e591771ec13f7741a14d0fb87126e70,
+      type: 3}
+  - nameVi: "C\xE2y cherry"
+    idType: 4
+    nameEng: Cherry
+    levelUse: 1
+    coin: 10
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 752942eefb7ad334584e89ae85967c88, type: 3}
+    iconLock: {fileID: 21300000, guid: 6cdf02a1b0e723d44ba013b855ac6ad9, type: 3}
+    itemShop: {fileID: 593692467642216168, guid: c00f609451f378d44a785f4f24335b63,
+      type: 3}
+  - nameVi: "C\xE2y cam"
+    idType: 4
+    nameEng: Orange
+    levelUse: 3
+    coin: 20
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 07cfc478f39d9f04496229bb5fe18e89, type: 3}
+    iconLock: {fileID: 21300000, guid: 16164c61d04af5f44806ec1aace175b2, type: 3}
+    itemShop: {fileID: 528654257789845324, guid: e8cd7f89444f4a2489e308928fd86502,
+      type: 3}
+  - nameVi: "C\xE2y chanh"
+    idType: 4
+    nameEng: Lemon
+    levelUse: 5
+    coin: 30
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 4f68aa3eaa51c154f8f8fa41cd6f23e2, type: 3}
+    iconLock: {fileID: 21300000, guid: e5b99fe8b420b684bbb7602aafab98ab, type: 3}
+    itemShop: {fileID: 4770958525051419928, guid: 2079e414a3ce92446bac63845848aa06,
+      type: 3}
+  - nameVi: "C\xE2y t\xE1o"
+    idType: 4
+    nameEng: Apple
+    levelUse: 7
+    coin: 40
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 9e00d4940e99a45449843617920d91b3, type: 3}
+    iconLock: {fileID: 21300000, guid: 267422178df21f2419580aac3f6fb657, type: 3}
+    itemShop: {fileID: 2868205368045981782, guid: d8baa3a74f4b42946911c80d1f87df05,
+      type: 3}
+  - nameVi: "C\xE2y anh \u0111\xE0o"
+    idType: 4
+    nameEng: Sakura
+    levelUse: 9
+    coin: 50
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: b604ee55291dee0429326b19ea7a0d1c, type: 3}
+    iconLock: {fileID: 21300000, guid: aa4a8224e09941942a6a3c431d34098b, type: 3}
+    itemShop: {fileID: 4280176962067431014, guid: 9a0c1f7fee1cca0478e95093a28f750b,
+      type: 3}
+  - nameVi: "C\xE2y \u0111i\u1EC1u"
+    idType: 4
+    nameEng: Cashew
+    levelUse: 11
+    coin: 60
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 767492765b15b5848855861999fbc304, type: 3}
+    iconLock: {fileID: 21300000, guid: 69e80da4719556045bd0e5f07cf1908a, type: 3}
+    itemShop: {fileID: 3890694193140648089, guid: 0bb4758b72f9f4c4095ef205470b1c3e,
+      type: 3}
+  - nameVi: "C\xE2y oliu"
+    idType: 4
+    nameEng: Olive tree
+    levelUse: 13
+    coin: 70
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 53702e1645410e441a600d2c3219ab01, type: 3}
+    iconLock: {fileID: 21300000, guid: c9f96804c9aa8af4bbccab134e33574b, type: 3}
+    itemShop: {fileID: 3933940816021108744, guid: 3e944341c484a3c48afe790ee09b632d,
+      type: 3}
+  - nameVi: "C\xE2y l\u1EF1u"
+    idType: 4
+    nameEng: Pomegranate
+    levelUse: 15
+    coin: 80
+    slkeo: 0
+    slmax: 1
+    plusLevel: 10
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: b07ebb9112ff9994c99daacbb23ad5f9, type: 3}
+    iconLock: {fileID: 21300000, guid: 8e46137d3c21f464da38aabf61a42fc5, type: 3}
+    itemShop: {fileID: 1818562592052803788, guid: 7a6193a615eb2784f9b36d9cb1e912ba,
+      type: 3}
+  - nameVi: "H\xF2m th\u01B0"
+    idType: 5
+    nameEng: Mail box
+    levelUse: 1
+    coin: 20
+    slkeo: 0
+    slmax: 1
+    plusLevel: 0
+    plusMaxsl: 0
+    icon: {fileID: 21300000, guid: e68c1307d4f857642a777c9e2335a048, type: 3}
+    iconLock: {fileID: 21300000, guid: 15e76e423340ddd429f16c5823496983, type: 3}
+    itemShop: {fileID: 1027754407452058, guid: 700dc6a9c1c87c54aa49a462d02b76ca, type: 3}
+  - nameVi: "\u0110\xE8n th\u1EDD"
+    idType: 5
+    nameEng: Church lights
+    levelUse: 11
+    coin: 50
+    slkeo: 0
+    slmax: 0
+    plusLevel: 0
+    plusMaxsl: 0
+    icon: {fileID: 21300000, guid: 3a8dc74d338f29e438d975b13ad99bd2, type: 3}
+    iconLock: {fileID: 21300000, guid: a1893640b05ffd14883c1645d64c67a7, type: 3}
+    itemShop: {fileID: 1119602018538022, guid: 3b7c896b58d7eb84fbd06483bd7df379, type: 3}
+  - nameVi: "B\xF9 nh\xECn"
+    idType: 5
+    nameEng: Bogy
+    levelUse: 15
+    coin: 100
+    slkeo: 0
+    slmax: 0
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: f6dc04ac00fec3b4ba821af22afac24d, type: 3}
+    iconLock: {fileID: 21300000, guid: ce6c6aa2a694fb744aaff4037a6db698, type: 3}
+    itemShop: {fileID: 1517376493911410, guid: 1250edeba85e56d40aea7530a4273b1e, type: 3}
+  - nameVi: "Hoa c\xFAc"
+    idType: 5
+    nameEng: Chrysanthemum
+    levelUse: 19
+    coin: 200
+    slkeo: 0
+    slmax: 0
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 493825eb71a0ac743b3eeb1498fb7067, type: 3}
+    iconLock: {fileID: 21300000, guid: a0f0a2d6b1f45f44c943dd8fd845b072, type: 3}
+    itemShop: {fileID: 1033407500426680, guid: f12bab5ef1bb1c74a8ddc1396e127802, type: 3}
+  - nameVi: "Hoa \u0111\u1ED3ng ti\u1EC1n"
+    idType: 5
+    nameEng: Gerbera
+    levelUse: 24
+    coin: 300
+    slkeo: 0
+    slmax: 100
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 6eca63a09be99e449b18b2b80f7f456a, type: 3}
+    iconLock: {fileID: 21300000, guid: a5484d98b3b3c1a4fac03dd52350e515, type: 3}
+    itemShop: {fileID: 1058594744456698, guid: 94e0361bed0c352469f07cf892a78681, type: 3}
+  - nameVi: "Gh\u1EBF g\u1ED7"
+    idType: 5
+    nameEng: Chair
+    levelUse: 27
+    coin: 400
+    slkeo: 0
+    slmax: 100
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: 0128d1ecd023e704d8d9f46063de3337, type: 3}
+    iconLock: {fileID: 21300000, guid: 4c627b40ff7e2f4499ca816f4e7d62c6, type: 3}
+    itemShop: {fileID: 1099434394250774, guid: 4c670b0f65f2ece4dbcd1876cb4f7478, type: 3}
+  - nameVi: "Gh\u1EBF s\u1EAFt"
+    idType: 5
+    nameEng: Chair
+    levelUse: 31
+    coin: 500
+    slkeo: 0
+    slmax: 100
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: db16ef34c8e452b41b6e1213838073e0, type: 3}
+    iconLock: {fileID: 21300000, guid: 07f1004f52611d040b8a5c0c665843b6, type: 3}
+    itemShop: {fileID: 1549685519159498, guid: 0b2768f46721c5a4d8a4717633f3018f, type: 3}
+  - nameVi: "Gh\u1EBF s\u1EAFt v\u1ECBn"
+    idType: 5
+    nameEng: Chair
+    levelUse: 35
+    coin: 600
+    slkeo: 0
+    slmax: 100
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: ef053097d5159ca44b1b8b80fee2e055, type: 3}
+    iconLock: {fileID: 21300000, guid: 97a235d46065a2148b0d3453a311ee5a, type: 3}
+    itemShop: {fileID: 1802548004837836, guid: fb8ee162c0a8ae446809b3220343669f, type: 3}
+  - nameVi: "M\xE8o th\u1EA7n t\xE0i tr\u1EAFng"
+    idType: 5
+    nameEng: Fidget cat white
+    levelUse: 39
+    coin: 700
+    slkeo: 0
+    slmax: 100
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: b6b0f34b51b21164f80b8bad4a3f53c8, type: 3}
+    iconLock: {fileID: 21300000, guid: 3b4f857490b731a49b5aff17eb928839, type: 3}
+    itemShop: {fileID: 1899240827929704, guid: 9ff8d154d40da274ca3b4f75ed600021, type: 3}
+  - nameVi: "M\xE8o th\u1EA7n t\xE0i v\xE0ng"
+    idType: 5
+    nameEng: Fidget cat yellow
+    levelUse: 43
+    coin: 800
+    slkeo: 0
+    slmax: 100
+    plusLevel: 0
+    plusMaxsl: 1
+    icon: {fileID: 21300000, guid: c6dc7e8bf410e624ab64ac4020b9e12f, type: 3}
+    iconLock: {fileID: 21300000, guid: 9c88e4461d1b7c645816929145894a85, type: 3}
+    itemShop: {fileID: 1519929416764582, guid: 88d62bcb4df8d2d40ac0e5791efb1abf, type: 3}

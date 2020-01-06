@@ -1,0 +1,16 @@
+﻿Farm (Tuan)
+alias name: farmgold
+password: 123456
+
+Tuấn (Gold Farm) : 
+package : nongtrai.farm.trangtrai.farming.farmer.bigfarm.farmhay.goldfarm
+
+sSign:     7f7e7f76656370783f7770637c3f6563707f76656370783f7770637c787f763f7770637c74633f7378767770637c3f7770637c7970683f767e7d757770637c
+app id: 1500
+app id admob:      ca-app-pub-7133070106760567~5948005021
+id admob banner:    ca-app-pub-7133070106760567/7971533133
+id admob full:       ca-app-pub-7133070106760567/3653014171
+idadmob reward video:   ca-app-pub-7133070106760567/3130269991
+Id startapp:
++ Dev ID  :  103554161 
++ App ID:    210562319
