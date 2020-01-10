@@ -48,7 +48,7 @@ public class Animal : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (!EventSystem.current.IsPointerOverGameObject(0) && PlayerPrefs.GetInt("move") == 0)
+        if (!EventSystem.current.IsPointerOverGameObject() && PlayerPrefs.GetInt("move") == 0)
         {
             if (timeLive > 0)
             {

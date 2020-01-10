@@ -16,7 +16,7 @@ public class MarketOpen : MonoBehaviour
         {
             Language.Instance.notifyEngOrVi("Expansions open at level 5", "Mở khóa cấp 5!");
         }
-        else if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject(0))
+        else if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject())
         {
             GameManager.Instance.cameraOnOff(true);
             Language.Instance.onSound(1);

@@ -29,7 +29,7 @@ public class Oder : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject(0))
+        if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject())
         {
             Language.Instance.onSound(1);
             GameManager.Instance.cameraOnOff(true);

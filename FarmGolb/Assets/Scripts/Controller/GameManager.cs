@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     int[,] array;
-    //data game    
+    //data game
     public DataShop dataShop;
     public DataStorage dataStorage;
     public DataMachine dataMachine;
@@ -275,64 +275,64 @@ public class GameManager : MonoBehaviour
             {
                 array[i, j] = 0;
 
-                if (i > 40 && i < 44)
-                {
-                    if (j > 15 && j < 39)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                //if (i > 40 && i < 44)
+                //{
+                //    if (j > 15 && j < 39)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
 
-                if (i > 13 && i < 42)
-                {
-                    if (j > 37 && j < 41)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                //if (i > 13 && i < 42)
+                //{
+                //    if (j > 37 && j < 41)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
 
-                if (i > 41 && i < 46)
-                {
-                    if (j > 38 && j < 56)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                //if (i > 41 && i < 46)
+                //{
+                //    if (j > 38 && j < 56)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
 
-                if (i > 45 && i < 67)
-                {
-                    if (j > 38 && j < 42)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                //if (i > 45 && i < 67)
+                //{
+                //    if (j > 38 && j < 42)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
 
-                //silo
-                if (i > 37 && i < 40)
-                {
-                    if (j > 51 && j < 54)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                ////silo
+                //if (i > 37 && i < 40)
+                //{
+                //    if (j > 51 && j < 54)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
 
-                //barn
-                if (i > 45 && i < 50)
-                {
-                    if (j > 51 && j < 55)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                ////barn
+                //if (i > 45 && i < 50)
+                //{
+                //    if (j > 51 && j < 55)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
 
-                //sead
-                if (i > 36 && i < 56)
-                {
-                    if (j > 60 && j < 67)
-                    {
-                        array[i, j] = 1;
-                    }
-                }
+                ////sead
+                //if (i > 36 && i < 56)
+                //{
+                //    if (j > 60 && j < 67)
+                //    {
+                //        array[i, j] = 1;
+                //    }
+                //}
             }
         }
     }

@@ -224,7 +224,7 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   _animationName: stand 1
   loop: 1
-  timeScale: 0.9
+  timeScale: 0.8
 --- !u!114 &1962950423655745730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,7 +524,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5001
 --- !u!114 &1829218189589922915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -716,7 +716,7 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   _animationName: stand 1
   loop: 1
-  timeScale: 0.8
+  timeScale: 0.9
 --- !u!114 &1962950423655745731
 MonoBehaviour:
   m_ObjectHideFlags: 0

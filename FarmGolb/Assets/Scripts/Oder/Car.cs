@@ -42,7 +42,7 @@ public class Car : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (!EventSystem.current.IsPointerOverGameObject(0))
+        if (!EventSystem.current.IsPointerOverGameObject())
         {
             Language.Instance.onSound(2);
             UpdateOder.Instance.checkCar = false;

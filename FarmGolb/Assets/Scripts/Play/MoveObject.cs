@@ -176,7 +176,7 @@ public class MoveObject : MonoBehaviour
     //check cham UI
     public bool checkUI()
     {
-        return !EventSystem.current.IsPointerOverGameObject(0);
+        return !EventSystem.current.IsPointerOverGameObject();
     }
 
     //move object and save
