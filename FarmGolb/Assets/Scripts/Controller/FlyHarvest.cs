@@ -9,6 +9,8 @@ public class FlyHarvest : SingletonOne<FlyHarvest>
     public GameObject animationBoom;
     public GameObject animationSeed;
     public GameObject effectCrop;
+    public GameObject effectClickCrop;
+    public GameObject effectProducingMachine;
 
     public void iconFlyBay(Sprite spr, Vector2 pos, int sl, int Loai)
     {

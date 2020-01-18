@@ -18,7 +18,7 @@ public class Cage : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("ns" + idFood))
         {
-            StorageController.Instance.updateStorage(1, idFood, 3);
+            StorageController.Instance.updateStorage(1, idFood, 2);
         }
         moveObject = GetComponent<MoveObject>();
         slga = PlayerPrefs.GetInt("numberAnimal" + gameObject.name);
@@ -41,8 +41,8 @@ public class Cage : MonoBehaviour
             slga = PlayerPrefs.GetInt("numberAnimal" + gameObject.name);
             if (slga == 0)
             {
-                ButtonManager.Instance.openOrCloseShop();
-                ShopManager.Instance.openButton2();
+                //ButtonManager.Instance.openOrCloseShop();
+                //ShopManager.Instance.openButton2();
             }
             else
             {
@@ -97,7 +97,7 @@ public class Cage : MonoBehaviour
     public void openAnimal()
     {
         int numberAnimal = PlayerPrefs.GetInt("numberAnimal" + gameObject.name);
-        slga = 3;
+        slga = 2;
         if (numberAnimal < slga)
         {
             transform.GetChild(numberAnimal + 3).gameObject.SetActive(true);

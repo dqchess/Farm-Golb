@@ -14,8 +14,8 @@ public class Destroy : MonoBehaviour
 
     void Start()
     {
+        //PlayerPrefs.SetInt(gameObject.name, 1);
         checkHuy = true;
-
         if (PlayerPrefs.GetInt(gameObject.name) == 1)
         {
             Destroy(gameObject);

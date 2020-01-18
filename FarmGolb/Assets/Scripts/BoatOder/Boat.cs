@@ -1,63 +1,41 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems;
+using System.Collections;
 
-public class Boat : MonoBehaviour
+public class Boat : Seaport
 {
-    public static Boat instance;
-    public GameObject dialogBoat;
+    //public static Boat instance;      
+    public Vector3 posHome, posGo;
 
-    #region
-    //Tàu đến sau 10h nó sẽ chạy
+    //private void Start()
+    //{
+    //    posHome = transform.position;
+    //}
 
-    //Xuất bến sau 4 h nó ms về
-    #endregion
-
-    // Use this for initialization
-    void Start()
+    public override void OnMouseUp()
     {
-        instance = this;
-        //tinh thoi gian xuat ben hay ve ben...
-        go();
+        base.OnMouseUp();
     }
 
-    private void OnMouseUp()
+    public IEnumerator go()
     {
-        if (PlayerPrefs.GetInt("level") < 17)
-        {
-            Language.Instance.notifyEngOrVi("Expansions open at level 17", "Mở khóa cấp 17!");
-        }
-        else if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject())
-        {
-            GameManager.Instance.cameraOnOff(true);
-            Language.Instance.onSound(1);
-            dialogBoat.SetActive(true);
-            AnimClick.Instance.showUI(dialogBoat);
-        }
-    }
-
-    //cap ben
-    public void dock()
-    {
-
-    }
-
-    //xuat ben
-    public void export()
-    {
-
-    }
-
-    //go
-    public void go()
-    {
-        LeanTween.moveLocal(gameObject, new Vector2(-27, 7), 13);
-        //
+        LeanTween.moveLocal(gameObject, posGo, 13);
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(false);
+        transform.GetChild(2).gameObject.SetActive(true);
+        yield return new WaitForSeconds(13);
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(2).gameObject.SetActive(false);
     }
 
     // go home
-    public void goHome()
+    public IEnumerator goHome()
     {
-        LeanTween.moveLocal(gameObject, new Vector2(-19, 11), 13);
-        //
+        transform.GetChild(1).gameObject.SetActive(true);
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(2).gameObject.SetActive(true);
+        LeanTween.moveLocal(gameObject, posHome, 13);
+        yield return new WaitForSeconds(13);
+        transform.GetChild(1).gameObject.SetActive(false);
+        transform.GetChild(2).gameObject.SetActive(false);
     }
 }

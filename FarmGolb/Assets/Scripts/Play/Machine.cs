@@ -113,7 +113,7 @@ public class Machine : MonoBehaviour
         if (CheckDistance.Instance.distance() && moveObject.checkUI())
         {
             if (idVpNauXong.Count == 0)
-            {                
+            {
                 DialogController.Instance.showMachine(transform.position);
                 MachineController.Instance.loadItemMachine(gameObject, id, numberProducing);
                 if (idVatPham.Count > 0)
@@ -139,7 +139,7 @@ public class Machine : MonoBehaviour
                 if (StorageController.Instance.checkIsFullStorage(1, idVp, GameManager.Instance.dataStorage.dataStorages[idVp].slThuH))
                 {
                     Language.Instance.onSound(2);
-                    Instantiate(FlyHarvest.Instance.effectCrop, transform.position, Quaternion.identity);
+                    Instantiate(FlyHarvest.Instance.effectClickCrop, transform.position, Quaternion.identity);
                     FlyHarvest.Instance.iconFlyBay(null, transform.position, GameManager.Instance.dataStorage.dataStorages[idVp].exp, 0);
                     FlyHarvest.Instance.iconFlyBay(GameManager.Instance.dataStorage.dataStorages[idVp].icon, transform.position, GameManager.Instance.dataStorage.dataStorages[idVp].slThuH, 2);
                     transform.GetChild(idVpNauXong.Count + 2).gameObject.SetActive(false);
@@ -260,6 +260,7 @@ public class Machine : MonoBehaviour
             transform.GetChild(2).gameObject.SetActive(true);
             StartCoroutine(timeItem());
         }
+        Instantiate(FlyHarvest.Instance.effectProducingMachine, transform.position, Quaternion.identity);
         numberProducing++;
         idVatPham.Add(idSp);
         saveIdVp(idVatPham, 1);

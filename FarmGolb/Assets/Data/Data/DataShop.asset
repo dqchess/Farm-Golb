@@ -187,9 +187,9 @@ MonoBehaviour:
     levelUse: 1
     coin: 10
     slkeo: 0
-    slmax: 3
+    slmax: 2
     plusLevel: 10
-    plusMaxsl: 3
+    plusMaxsl: 2
     icon: {fileID: 21300000, guid: 5f47080220a21f348b0a2f09498d5631, type: 3}
     iconLock: {fileID: 21300000, guid: fd5a6735f9db519458530f69775bf146, type: 3}
     itemShop: {fileID: 898274913783568845, guid: 5881f9de149d22842ac8cbdbfadfb187,
@@ -213,9 +213,9 @@ MonoBehaviour:
     levelUse: 4
     coin: 20
     slkeo: 0
-    slmax: 3
+    slmax: 2
     plusLevel: 10
-    plusMaxsl: 3
+    plusMaxsl: 2
     icon: {fileID: 21300000, guid: c92dbfc02ee3b42478ed596bfd313db7, type: 3}
     iconLock: {fileID: 21300000, guid: 1de3601b045cdae47934804915d97184, type: 3}
     itemShop: {fileID: 2004312788753092779, guid: d98cc4077e6a4b849b26715a0410da2c,
@@ -239,9 +239,9 @@ MonoBehaviour:
     levelUse: 9
     coin: 30
     slkeo: 0
-    slmax: 3
+    slmax: 2
     plusLevel: 10
-    plusMaxsl: 3
+    plusMaxsl: 2
     icon: {fileID: 21300000, guid: 9e35d09abb0fd114aa9a1592f94343b5, type: 3}
     iconLock: {fileID: 21300000, guid: 3206297c3542c40419d54db43795cb21, type: 3}
     itemShop: {fileID: 2858580015324285157, guid: 0821edecca08b184a98281aa17d367ec,
@@ -265,9 +265,9 @@ MonoBehaviour:
     levelUse: 10
     coin: 40
     slkeo: 0
-    slmax: 3
+    slmax: 2
     plusLevel: 10
-    plusMaxsl: 3
+    plusMaxsl: 2
     icon: {fileID: 21300000, guid: f80f1d5820c23c34b97ff8a96c2488aa, type: 3}
     iconLock: {fileID: 21300000, guid: 4279236ac29c9604490f69bff53c5025, type: 3}
     itemShop: {fileID: 8841147957936492621, guid: 806e058c415f06547959278db009d6b9,
@@ -291,9 +291,9 @@ MonoBehaviour:
     levelUse: 14
     coin: 50
     slkeo: 0
-    slmax: 3
+    slmax: 2
     plusLevel: 10
-    plusMaxsl: 3
+    plusMaxsl: 2
     icon: {fileID: 21300000, guid: 1ee689c86beac944394067f68131f6e2, type: 3}
     iconLock: {fileID: 21300000, guid: f1cf1c9ebfda12e42b74b22ea3d083a6, type: 3}
     itemShop: {fileID: 3054834710055062788, guid: 3c93309b53764dc4590f97ef5807d311,
@@ -317,9 +317,9 @@ MonoBehaviour:
     levelUse: 18
     coin: 60
     slkeo: 0
-    slmax: 3
+    slmax: 2
     plusLevel: 10
-    plusMaxsl: 3
+    plusMaxsl: 2
     icon: {fileID: 21300000, guid: bbc74a34a2176eb43ba87966b485dc80, type: 3}
     iconLock: {fileID: 21300000, guid: 2d0452296c94b704fa5934b60d3e4f8b, type: 3}
     itemShop: {fileID: 3376823855693638554, guid: 3786c2b8d28d00d48ac31c81a39ac26e,

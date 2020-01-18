@@ -60,7 +60,7 @@ public class Tree : MonoBehaviour
                     transform.GetChild(2).gameObject.SetActive(false);
                     timeLive = time;
                     StartCoroutine(timeTree());
-                    Instantiate(FlyHarvest.Instance.effectCrop, transform.transform.position, Quaternion.identity);
+                    Instantiate(FlyHarvest.Instance.effectClickCrop, transform.transform.position, Quaternion.identity);
                     FlyHarvest.Instance.iconFlyBay(null, transform.position, GameManager.Instance.dataStorage.dataStorages[idTree + 18].exp, 0);
                     FlyHarvest.Instance.iconFlyBay(GameManager.Instance.dataStorage.dataStorages[idTree + 18].icon, transform.position, 1, 2);
                 }

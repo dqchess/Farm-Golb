@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public bool guide;
     public GameObject Bee;
     public GameObject khoi;
+    public Transform canvas;
 
     public bool tangTien;
 

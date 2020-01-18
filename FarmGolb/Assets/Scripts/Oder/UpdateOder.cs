@@ -82,7 +82,7 @@ public class UpdateOder : MonoBehaviour
         yield return new WaitForSeconds(2f);
         LeanTween.move(xehang, posGo.position, 13f);
         yield return new WaitForSeconds(9f);
-        xehang.transform.localPosition = new Vector2(-8.1f, 3.6f);
+        xehang.transform.localPosition = new Vector2(12, -6.55f);
         xehang.SetActive(false);
         xetien.SetActive(true);
     }
