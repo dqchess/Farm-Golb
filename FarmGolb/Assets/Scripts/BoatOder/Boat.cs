@@ -3,8 +3,10 @@ using System.Collections;
 
 public class Boat : Seaport
 {
-    //public static Boat instance;      
+    //public static Boat instance;  
     public Vector3 posHome, posGo;
+
+    public ItemBox itemBox;
 
     //private void Start()
     //{
@@ -37,5 +39,12 @@ public class Boat : Seaport
         yield return new WaitForSeconds(13);
         transform.GetChild(1).gameObject.SetActive(false);
         transform.GetChild(2).gameObject.SetActive(false);
+        itemBox.checkThuH = true;
+    }
+
+    public void go1()
+    {
+        transform.localPosition = posHome;
+        LeanTween.cancel(gameObject);
     }
 }

@@ -14,7 +14,7 @@ public class Storage : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject())
+        if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject(0))
         {
             AnimClick.Instance.clickObject(gameObject);
             Language.Instance.onSound(1);

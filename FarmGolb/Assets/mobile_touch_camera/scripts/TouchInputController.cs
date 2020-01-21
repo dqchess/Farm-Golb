@@ -194,7 +194,7 @@ namespace BitBenderGames
                         lastFingerDownTimeReal = Time.realtimeSinceStartup;
                         dragStartPos = TouchWrapper.Touch0.Position;
                         FingerDown(TouchWrapper.AverageTouchPos);
-                        if (!EventSystem.current.IsPointerOverGameObject())
+                        if (!EventSystem.current.IsPointerOverGameObject(0))
                         {
                             DialogController.Instance.close();
                             CheckDistance.Instance.CancelLeanTween();

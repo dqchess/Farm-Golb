@@ -35,7 +35,8 @@ public class GameManager : MonoBehaviour
     {
         //Application.targetFrameRate = 60;
         //PlayerPrefs.SetInt("resource" + 0, 10000);
-        //PlayerPrefs.SetInt("resource" + 1, 10000);        
+        //PlayerPrefs.SetInt("resource" + 1, 10000);       
+        
         try
         {
             MyAdvertisement.ShowFullNormal();
@@ -176,6 +177,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            //MobileTouchCamera.checkCamFollow = false;
             StartCoroutine(openCam());
         }
     }
@@ -276,64 +278,71 @@ public class GameManager : MonoBehaviour
             {
                 array[i, j] = 0;
 
-                //if (i > 40 && i < 44)
-                //{
-                //    if (j > 15 && j < 39)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                if (i > 41 && i < 44)
+                {
+                    if (j > 16 && j < 43)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
 
-                //if (i > 13 && i < 42)
-                //{
-                //    if (j > 37 && j < 41)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                if (i > 41 && i < 45)
+                {
+                    if (j > 42 && j < 69)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
 
-                //if (i > 41 && i < 46)
-                //{
-                //    if (j > 38 && j < 56)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                if (i > 27 && i < 42)
+                {
+                    if (j > 42 && j < 45)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
 
-                //if (i > 45 && i < 67)
-                //{
-                //    if (j > 38 && j < 42)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                if (i > 44 && i < 59)
+                {
+                    if (j > 42 && j < 47)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
 
-                ////silo
-                //if (i > 37 && i < 40)
-                //{
-                //    if (j > 51 && j < 54)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                if (i > 54 && i < 57)
+                {
+                    if (j > 47 && j < 50)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
 
-                ////barn
-                //if (i > 45 && i < 50)
-                //{
-                //    if (j > 51 && j < 55)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                //barn
+                if (i > 54 && i < 57)
+                {
+                    if (j > 38 && j < 41)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
 
-                ////sead
-                //if (i > 36 && i < 56)
-                //{
-                //    if (j > 60 && j < 67)
-                //    {
-                //        array[i, j] = 1;
-                //    }
-                //}
+                //sead
+                if (i > 16 && i < 28)
+                {
+                    if (j > 33 && j < 47)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
+
+                if (i > 43 && i < 46)
+                {
+                    if (j > 37 && j < 43)
+                    {
+                        array[i, j] = 1;
+                    }
+                }
             }
         }
     }

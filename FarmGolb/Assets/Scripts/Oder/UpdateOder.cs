@@ -76,13 +76,13 @@ public class UpdateOder : MonoBehaviour
     }
 
     IEnumerator carRun()
-    {
+    {        
         Language.Instance.onSound(7);
         xehang.SetActive(true);
         yield return new WaitForSeconds(2f);
         LeanTween.move(xehang, posGo.position, 13f);
-        yield return new WaitForSeconds(9f);
-        xehang.transform.localPosition = new Vector2(12, -6.55f);
+        yield return new WaitForSeconds(14f);
+        xehang.transform.localPosition = new Vector2(-8, 3.6f);
         xehang.SetActive(false);
         xetien.SetActive(true);
     }

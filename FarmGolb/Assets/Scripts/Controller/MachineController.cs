@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class MachineController : MonoBehaviour
 {
@@ -210,10 +211,17 @@ public class MachineController : MonoBehaviour
         }
         else
         {
-            //Language.Instance.notifyEngOrVi("Not enough resource", "Không đủ nguyên liệu");
-            GameManager.Instance.listUserDiamond.Add(gameObject);
-            DialogController.Instance.dialogBuyDiamond.SetActive(true);
-            DialogController.Instance.dialogBuyDiamond.GetComponent<BuyDiamond>().setImage(idProduct);
+            if (numberProducing < 5 && numberProducing < numberBoxProduce && numberProducing + machine.GetComponent<Machine>().idVpNauXong.Count < 6)
+            {
+                //Language.Instance.notifyEngOrVi("Not enough resource", "Không đủ nguyên liệu");
+                GameManager.Instance.listUserDiamond.Add(gameObject);
+                DialogController.Instance.dialogBuyDiamond.SetActive(true);
+                DialogController.Instance.dialogBuyDiamond.GetComponent<BuyDiamond>().setImage(idProduct);
+            }
+            else
+            {
+                Language.Instance.notifyEngOrVi("Machine is full", "Nhà máy đã đầy");
+            }            
         }
 
         if (GameManager.Instance.guide)
@@ -262,9 +270,15 @@ public class MachineController : MonoBehaviour
             if (GameManager.Instance.guide)
             {
                 Destroy(Guide.Instance.tayChiKimCuong);
-                gameObject.SetActive(false);
+                StartCoroutine(offGuide());
             }
         }
+    }
+
+    IEnumerator offGuide()
+    {
+        yield return new WaitForSeconds(0.7f);
+        gameObject.SetActive(false);
     }
 
     //update image producing khi click vao nha may

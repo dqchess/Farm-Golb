@@ -62,7 +62,7 @@ public class Destroy : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (!EventSystem.current.IsPointerOverGameObject() && CheckDistance.Instance.distance())
+        if (!EventSystem.current.IsPointerOverGameObject(0) && CheckDistance.Instance.distance())
         {
             if (!GameManager.Instance.guide)
             {

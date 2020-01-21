@@ -17,25 +17,25 @@ public class Test : MonoBehaviour
         //Debug.Log(highlightMap.WorldToCell(transform.position));
         //Debug.Log(highlightMap.WorldToLocal(transform.position));
         //Debug.Log(highlightMap.LocalToCell(transform.position));
-        //Debug.Log(GameManager.Instance.getCellTileMap(transform.position));
-
+        Debug.Log(GameManager.Instance.getCellTileMap(transform.position));        
+        //Debug.Log(Mathf.RoundToInt((40 - transform.position.y) * 100f));
     }
     float x, y, a;
     Vector2 vt;
-    private void Start()
-    {
-        x = transform.position.x;
-        y = transform.position.y;
-        //moveOb = GetComponent<MoveObject>();
-        //for (int i = -29; i < 30; i++)
-        //{
-        //    for (int j = -29; j < 30; j++)
-        //    {
-        //        highlightMap.SetTile(new Vector3Int(i, j, 0), tile);
-        //    }
-        //}
-        LeanTween.moveLocal(gameObject, new Vector2(0.14f, 1.04f), 5f);
-    }
+    //private void Start()
+    //{
+    //    x = transform.position.x;
+    //    y = transform.position.y;
+    //    //moveOb = GetComponent<MoveObject>();
+    //    //for (int i = -29; i < 30; i++)
+    //    //{
+    //    //    for (int j = -29; j < 30; j++)
+    //    //    {
+    //    //        highlightMap.SetTile(new Vector3Int(i, j, 0), tile);
+    //    //    }
+    //    //}
+    //    LeanTween.moveLocal(gameObject, new Vector2(0.14f, 1.04f), 5f);
+    //}
 
     Vector2 target;
     private void OnMouseDrag()

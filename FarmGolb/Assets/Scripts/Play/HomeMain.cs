@@ -12,7 +12,7 @@ public class HomeMain : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject())
+        if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject(0))
         {  
             //Task.Instance.loadTask();
             //Language.Instance.onSound(1);

@@ -26,6 +26,7 @@ public class DragItemMachine : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             ObjectDrag.Instance.ObjDrag = Instantiate(ob, CheckDistance.Instance.getScreenToWorldPoint(), Quaternion.identity);
             ObjectDrag.Instance.ObjDrag.GetComponent<SpriteRenderer>().sprite = GameManager.Instance.dataStorage.dataStorages[idItemMachine].icon;
             ObjectDrag.Instance.check = true;
+            ObjectDrag.Instance.checkCam = true;
             GameManager.Instance.cameraOnOff(true);
             showVp.SetActive(false);
             transform.localScale = Vector2.zero;

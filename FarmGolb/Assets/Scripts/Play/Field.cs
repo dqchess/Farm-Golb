@@ -120,7 +120,7 @@ public class Field : MonoBehaviour
                 StorageController.Instance.updateStorage(0, idSeed, -1);
                 target.gameObject.GetComponent<ItemDrag>().updateText();
                 buyDiamond();
-                Oder.Instance.showOder();
+                //Oder.Instance.showOder();
             }
             else
             {

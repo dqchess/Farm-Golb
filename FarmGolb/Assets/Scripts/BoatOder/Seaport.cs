@@ -8,11 +8,17 @@ public class Seaport : MonoBehaviour
     public Transform ScrollView;
     public GameObject itemVp;
     int level;
+    
 
     private void Start()
     {
         level = PlayerPrefs.GetInt("level");
-        load();
+        load();        
+    }
+
+    public virtual void OnMouseDown()
+    {
+        CheckDistance.Instance.posOld();
     }
 
     public virtual void OnMouseUp()
@@ -21,7 +27,7 @@ public class Seaport : MonoBehaviour
         {            
             Language.Instance.notifyEngOrVi("Expansions open at level 7", "Mở khóa cấp 7!");
         }
-        else /*if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject())*/
+        else if (CheckDistance.Instance.distance() && !EventSystem.current.IsPointerOverGameObject(0))
         {
             GameManager.Instance.cameraOnOff(true);
             Language.Instance.onSound(1);

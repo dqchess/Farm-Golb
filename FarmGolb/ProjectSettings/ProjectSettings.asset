@@ -156,7 +156,7 @@ PlayerSettings:
     Android: nongtrai.farm.trangtrai.farming.farmer.bigfarm.farmhay.goldfarm
     Standalone: com.Company.ProductName
   buildNumber: {}
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 3
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -242,7 +242,7 @@ PlayerSettings:
   clonedFromGUID: 5f34be1353de5cf4398729fda238591b
   templatePackageId: com.unity.template.2d@1.3.0
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 4
   AndroidSplashScreenScale: 2
   androidSplashScreen: {fileID: 2800000, guid: b401f7edca4600b40a9a8023faa4d89d, type: 3}
   AndroidKeystoreName: C:/HayDay/farmgold.keystore

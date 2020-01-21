@@ -37,10 +37,20 @@ public class Guide : MonoBehaviour
     public bool check;
     Vector2 pos;
     public GameObject tree;
+    //MobileTouchCamera camMobile;
+
+    //private void Update()
+    //{
+    //    if(GameManager.Instance.guide)
+    //    {
+    //        camMobile.ComputeCamBoundaries();
+    //    }
+    //}
 
     void Start()
     {
         Instance = this;
+        //camMobile = Camera.main.GetComponent<MobileTouchCamera>();
         step = PlayerPrefs.GetInt("step");
         //step = 13;
         if (GameManager.Instance.guide)
@@ -139,6 +149,7 @@ public class Guide : MonoBehaviour
                     }
                 }
                 //keo o dat xong hien ban tay chi dat
+                moveCam(GameManager.Instance.ObODat.transform.GetChild(6).transform.position);
                 tayChi.transform.position = GameManager.Instance.ObODat.transform.GetChild(6).transform.position;
             }
             else if (step == 5)

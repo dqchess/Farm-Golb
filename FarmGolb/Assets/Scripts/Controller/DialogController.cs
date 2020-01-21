@@ -20,6 +20,7 @@ public class DialogController : SingletonOne<DialogController>
     public GameObject dialogReward;
     public GameObject dialogDaily;
     public GameObject dialogBuyDiamond;
+    public GameObject dialogBoat;
 
     //Object move harvest
     public Transform cloverExp;
@@ -120,6 +121,7 @@ public class DialogController : SingletonOne<DialogController>
         dialoStorage.transform.localScale = Vector2.zero;
         dialogReward.transform.localScale = Vector2.zero;
         dialoOder.transform.localScale = Vector2.zero;
+        dialogBoat.transform.localScale = Vector2.zero;
         dialoMarket.SetActive(false);
         if (ButtonManager.Instance.check)
         {

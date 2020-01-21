@@ -18,6 +18,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        //PlayerPrefs.SetInt("exp", 4965);
         Instance = this;
         exp = PlayerPrefs.GetInt("exp");
         level = PlayerPrefs.GetInt("level");

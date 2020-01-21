@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class ObjectDrag : SingletonOne<ObjectDrag>
 {
     public bool check;
+    public bool checkCam;
     [HideInInspector]
     public GameObject ObjDrag;
     Camera cam;
@@ -12,6 +13,7 @@ public class ObjectDrag : SingletonOne<ObjectDrag>
     private void Start()
     {
         cam = Camera.main;
+        checkCam = true;
     }
 
     void Update()
@@ -35,59 +37,64 @@ public class ObjectDrag : SingletonOne<ObjectDrag>
                     DialogController.Instance.dialogBuyDiamond.SetActive(true);
                 }
 
-                GameManager.Instance.cameraOnOff(false);
+                if (checkCam)
+                    GameManager.Instance.cameraOnOff(false);
 
-                if (Guide.Instance.step <= 1)
+                if (GameManager.Instance.guide)
                 {
-                    if (Guide.Instance.check)
+                    if (Guide.Instance.step <= 1)
                     {
-                        Guide.Instance.stepGuide(2);
-                        Guide.Instance.check = false;
-                    }
-                    else
-                    {
-                        Guide.Instance.stepGuide(0);
-                    }
-                }
-                else
-                if (Guide.Instance.step == 5)
-                {
-                    if (Guide.Instance.check)
-                    {
-                        Guide.Instance.stepGuide(6);
-                        Guide.Instance.check = false;
-                    }
-                    else
-                    {
-                        Guide.Instance.stepGuide(4);
-                    }
-                }
-                else if (Guide.Instance.step == 9)
-                {
-                    if (Guide.Instance.check)
-                    {
-                        Guide.Instance.stepGuide(10);
-                        Guide.Instance.check = false;
-                    }
-                    else
-                    {
-                        Guide.Instance.stepGuide(9);
-                    }
-                }
-                else if (Guide.Instance.step == 10)
-                {
-                    if (Guide.Instance.check)
-                    {
-                        if (GameManager.Instance.guide)
+                        if (Guide.Instance.check)
                         {
-                            Guide.Instance.stepGuide(11);
+                            Guide.Instance.stepGuide(2);
+                            Guide.Instance.check = false;
                         }
-                        Guide.Instance.check = false;
+                        else
+                        {
+                            Guide.Instance.stepGuide(0);
+                        }
                     }
                     else
+                if (Guide.Instance.step == 5)
                     {
-                        Guide.Instance.stepGuide(9);
+                        if (Guide.Instance.check)
+                        {
+                            Guide.Instance.stepGuide(6);
+                            Guide.Instance.check = false;
+                        }
+                        else
+                        {
+                            Guide.Instance.stepGuide(4);
+                        }
                     }
+                    else if (Guide.Instance.step == 9)
+                    {
+                        if (Guide.Instance.check)
+                        {
+                            Guide.Instance.stepGuide(10);
+                            Guide.Instance.check = false;
+                        }
+                        else
+                        {
+                            Guide.Instance.stepGuide(9);
+                        }
+                    }
+                    else if (Guide.Instance.step == 10)
+                    {
+                        if (Guide.Instance.check)
+                        {
+                            if (GameManager.Instance.guide)
+                            {
+                                Guide.Instance.stepGuide(11);
+                            }
+                            Guide.Instance.check = false;
+                        }
+                        else
+                        {
+                            Guide.Instance.stepGuide(9);
+                        }
+                    }
+
                 }
             }
         }

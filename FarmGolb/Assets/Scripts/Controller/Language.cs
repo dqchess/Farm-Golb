@@ -14,6 +14,9 @@ public class Language : SingletonOne<Language>
     public AudioSource audioSound;
     public AudioSource randomBird;
 
+    //Name Dialog boat
+    public Text nameDialogBoat;
+
     IEnumerator bird()
     {
         yield return new WaitForSeconds(Random.Range(13, 40));
@@ -29,6 +32,7 @@ public class Language : SingletonOne<Language>
             checkLanguage = true;
         }
         StartCoroutine(bird());
+        setNameText("Cổng giao dịch", "Trading port", nameDialogBoat);
     }
 
     public void notifyEngOrVi(string notifyEng, string notifyVi)

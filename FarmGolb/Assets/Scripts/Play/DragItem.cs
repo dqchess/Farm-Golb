@@ -131,6 +131,7 @@ public class DragItem : MonoBehaviour, IPointerDownHandler
             }
             ObjectDrag.Instance.ObjDrag = init;
             ObjectDrag.Instance.check = true;
+            ObjectDrag.Instance.checkCam = true;
             Destroy(transform.parent.parent.gameObject);
         }
     }

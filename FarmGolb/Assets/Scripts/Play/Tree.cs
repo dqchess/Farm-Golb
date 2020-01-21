@@ -71,8 +71,11 @@ public class Tree : MonoBehaviour
             }
             else
             {
-                DialogController.Instance.showTime(new Vector2(transform.position.x, transform.position.y + 1.7f));
-                TimeObject.Instance.showTimeDialog(idTree + 18, time, timeLive, gameObject);
+                if (!GameManager.Instance.guide)
+                {
+                    DialogController.Instance.showTime(new Vector2(transform.position.x, transform.position.y + 1.7f));
+                    TimeObject.Instance.showTimeDialog(idTree + 18, time, timeLive, gameObject);
+                }                
             }
         }
     }
