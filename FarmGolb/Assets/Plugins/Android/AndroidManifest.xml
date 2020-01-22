@@ -103,6 +103,9 @@
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.OverlayActivity" android:theme="@android:style/Theme.Translucent"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.FullScreenActivity" android:theme="@android:style/Theme"/>
  			
+			<uses-library
+      android:name="org.apache.http.legacy"
+      android:required="false" />
     </application>
 
     <uses-sdk
